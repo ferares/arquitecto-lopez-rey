@@ -10,7 +10,9 @@ if (isset($_GET['lang'])) {
 if ($lang === 'en') {
   define('TRANSLATIONS', array(
     'main_title' => 'Architect Rodolfo López Rey',
+    'desc' => 'Life and work of Architect Rodolfo López Rey.',
     'biography' => 'Biography',
+    'bio_pic_alt' => 'Portait of Ar. Rodolfo López Rey',
     'projects' => 'Projects',
     'copyright' => '(c) ' . date('Y') . ' All rights reserved.',
     'tooltip_photo' => 'Click to enlarge',
@@ -24,7 +26,9 @@ if ($lang === 'en') {
 } else {
   define('TRANSLATIONS', array(
     'main_title' => 'Arquitecto Rodolfo López Rey',
+    'desc' => 'Vida y obra del Arquitecto Rodolfo López Rey.',
     'biography' => 'Biografía',
+    'bio_pic_alt' => 'Retrato del Arq. Rodolfo López Rey',
     'projects' => 'Obras',
     'personal_header' => 'Fotos personales',
     'copyright' => '(c) ' . date('Y') . ' Todos los derechos reservados.',
@@ -39,6 +43,7 @@ if ($lang === 'en') {
 
 // Get the URL
 $uri = strtok($_SERVER['REQUEST_URI'], '?');
+$currentUrl = "https://$_SERVER[HTTP_HOST]$uri";
 $pos = strrpos($uri, '/');
 $url = $_SERVER['DOCUMENT_ROOT'].substr_replace($uri, '/views', $pos, 0).'.php';
 $uri = substr($uri,$pos);
@@ -51,7 +56,7 @@ if ($uri === '/') {
 ?>
 
 <!DOCTYPE html>
-<html lang='es'>
+<html lang='<?php echo $lang ?>'>
 
   <?php require_once('./inc/_head.php'); ?>
 
