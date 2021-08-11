@@ -18,36 +18,56 @@
 </p>
 <p>
   Ingresa a la Facultad de Arquitectura de Montevideo en 1952 cursando
-  primer año en el Taller del <strong>Arq.</strong>
-  <strong>Mario Paysée Reyes</strong> y luego continúa hasta el final de
-  su carrera en el Taller del <strong>Arq. Carlos Gómez Gavazzo,</strong>
-  gran maestro de arquitectura. Este taller estaba integrado por, entre
-  otros, el Arq. Luis Basil y el profesor adjunto
-  <strong>Arq. Ramón</strong> <strong>González Almeida.</strong> Este lo
-  orienta en creatividad, coherencia y preocupación por el orden
-  estructural. Colabora en su estudio hasta que en 1955, el Arq. Ramón
-  González Almeida viaja a EE.UU. y luego se radica en Venezuela. En ese
-  momento, López Rey, aún estudiante, asume las responsabilidades del
-  estudio del Arq. Ramón González Almeida, aunque en lo profesional lo
-  continúa representando el <strong>estudio de los arquitectos Don Alberto
-  Muñoz del Campo, Enrique Muñoz y Guillermo Gómez Platero</strong>.
+  primer año en el Taller del
+  <strong>
+    Arq. Mario Paysée Reyes
+  </strong>
+  y luego continúa hasta el final de su carrera en el Taller del
+  <strong>
+    Arq. Carlos Gómez Gavazzo
+  </strong>,
+  gran maestro de arquitectura. Este taller estaba integrado por, entre otros,
+  el Arq. Luis Basil y el profesor adjunto
+  <strong>
+    Arq. Ramón González Almeida
+  </strong>. Este lo orienta en creatividad, coherencia y preocupación por el
+  orden estructural. Colabora en su estudio hasta que en 1955, el Arq. Ramón
+  González Almeida viaja a EE.UU. y luego se radica en Venezuela. En ese momento
+  , López Rey, aún estudiante, asume las responsabilidades del estudio del Arq.
+  Ramón González Almeida, aunque en lo profesional lo continúa representando el
+  <strong>
+    estudio de los arquitectos Don Alberto Muñoz del Campo, Enrique Muñoz y
+    Guillermo Gómez Platero
+  </strong>.
   Comienza a trabajar en varios proyectos dentro de este estudio, como el
   concurso para el Banco Hipotecario. Dicho proyecto fue muy apreciado por
-  el Arq. Rino Levi, integrante del jurado. Conoce al <strong>Arq. Paul
-  Rudolph</strong> durante una visita que este realiza al taller Gómez
-  Gavazzo de la Facultad de Arquitectura donde ofrece una estupenda clase.
-  Admira al Arq. Paul Rudolph por sus casas en Sarasota (Florida, EE.UU.)
-  publicadas en la revista Arts and Architecture. Otros importantes
-  arquitectos referentes en su formación fueron: <strong>Le Corbusier</strong>
-  (<strong>Charles Édouard Jeanneret)</strong>, <strong>Walter Gropius,
-  Ludwig Mies van der Rohe, Philip Johnson, Ernesto Rogers,
-  Charles Eames, y Harry Seidler.</strong>
+  el Arq. Rino Levi, integrante del jurado. Conoce al
+  <strong>
+    Arq. Paul Rudolph
+  </strong>
+  durante una visita que este realiza al taller Gómez Gavazzo de la Facultad de
+  Arquitectura donde ofrece una estupenda clase. Admira al Arq. Paul Rudolph por
+  sus casas en Sarasota (Florida, EE.UU.) publicadas en la revista Arts and
+  Architecture. Otros importantes arquitectos referentes en su formación fueron:
+  <strong>
+    Le Corbusier
+  </strong>
+  (<strong>
+    Charles Édouard Jeanneret
+  </strong>),
+  <strong>
+    Walter Gropius, Ludwig Mies van der Rohe, Philip Johnson, Ernesto Rogers,
+    Charles Eames, y Harry Seidler.
+  </strong>
 </p>
 <p>
   En 1958, mientras prepara sus últimos exámenes de Facultad, recibe la
-  invitación de <strong>Don Leonel Viera,</strong> autor del puente
-  colgante sobre el arroyo Maldonado de Punta del Este, para desarrollar
-  el anteproyecto del
+  invitación de
+  <strong>
+    Don Leonel Viera
+  </strong>,
+  autor del puente colgante sobre el arroyo Maldonado de Punta del Este, para
+  desarrollar el anteproyecto del
   <a href='#thumbImg_Edificio_Centenario' class='jspHijack'>
     Edificio Centenario
   </a>
@@ -59,15 +79,19 @@
 </p>
 <p>
   Ya iniciados varios trabajos con el
-  <strong>Arq. Guillermo Gómez Platero</strong> interviene, en el proyecto
-  del Edificio Finisterre en la Rambla República del Perú en Montevideo y
-  en el Edificio Puerto en Punta del Este, entre otros.
+  <strong>
+    Arq. Guillermo Gómez Platero
+  </strong>
+  interviene, en el proyecto del Edificio Finisterre en la Rambla República del
+  Perú en Montevideo y en el Edificio Puerto en Punta del Este, entre otros.
 </p>
 <p>
   Se constituye la sociedad
-  <strong>Gómez Platero - López Rey arquitectos.</strong>
+  <strong>
+    Gómez Platero - López Rey arquitectos
+  </strong>.
 </p>
-<ol>
+<ol class="ordered-list-start">
   <li>
     <a href='#thumbImg_Puerto' class='jspHijack'>
       1959 - Edificio Puerto
@@ -135,37 +159,31 @@
     <a class='arq highslide' href='images/cartas/gonzalezAlmeida.jpg' onclick='return hs.expand(this)'>
       Arq. Ramón González Almeida
     </a>
-    <br>
   </li>
   <li>
     <a class='arq highslide' href='images/cartas/sichero.jpg' onclick='return hs.expand(this)'>
       Arq. Raúl Sichero
     </a>
-    <br>
   </li>
   <li>
     <a class='arq highslide' href='images/cartas/garciaPardo.jpg' onclick='return hs.expand(this)'>
       Arq. Luis García Pardo
     </a>
-    <br>
   </li>
   <li>
     <a class='arq highslide' href='images/cartas/viera.jpg' onclick='return hs.expand(this)'>
       Leonel Viera
     </a>
-    <br>
   </li>
   <li>
     <a class='arq highslide' href='images/cartas/munozdelCampo.jpg' onclick='return hs.expand(this)'>
       Arq. Don Alberto Muñóz del Campo
     </a>
-    <br>
   </li>
   <li>
     <a class='arq highslide' href='images/cartas/ricardoSaxlund.jpg' onclick='return hs.expand(this)'>
       Arq. Ricardo Saxlund
     </a>
-    <br>
   </li>
 </ol>
 <p>
@@ -198,18 +216,26 @@
   .
 </p>
 <p>
-  A fines de 1964 el <strong>Arq. Ramón González Almeida,</strong> ya
-  radicado en Venezuela, lo invita a enseñar arquitectura en la Facultad
+  A fines de 1964 el
+  <strong>
+    Arq. Ramón González Almeida
+  </strong>,
+  ya radicado en Venezuela, lo invita a enseñar arquitectura en la Facultad
   de Arquitectura de la ciudad de Mérida en Venezuela. Resuelve volver a
   Montevideo aunque antes visita diversas ciudades de España, Francia,
   Bélgica, Holanda y Alemania. En este último país visita la Escuela de
-  Ulm y conoce a su Director <strong>Tomás Maldonado</strong>. No pudo
-  olvidar el clima monástico de alta intelectualidad que allí se percibía.
-  Luego, al pasar por Suiza intenta visitar a <strong>Max Bill</strong>
-  fundador de dicha escuela, pero en ese momento no se encontraba en
-  Zúrich. Culmina su viaje regresando a Italia y finalmente a Grecia en
-  donde permanece más de un mes visitando Atenas, Miconos, Santorini,
-  Delos, Paros y Creta.
+  Ulm y conoce a su Director
+  <strong>
+    Tomás Maldonado
+  </strong>.
+  No pudo olvidar el clima monástico de alta intelectualidad que allí se
+  percibía. Luego, al pasar por Suiza intenta visitar a
+  <strong>
+    Max Bill
+  </strong>
+  fundador de dicha escuela, pero en ese momento no se encontraba en Zúrich.
+  Culmina su viaje regresando a Italia y finalmente a Grecia en donde permanece
+  más de un mes visitando Atenas, Miconos, Santorini, Delos, Paros y Creta.
 </p>
 <p>
   De regreso a Montevideo en 1965 se reintegra al estudio y continúa en la
@@ -235,7 +261,7 @@
   que se expresa en tantas residencias y algunos edificios realizados en
   Punta del Este y Montevideo, a saber:
 </p>
-<ol>
+<ol class="ordered-list-continue">
   <li>
     <a href='#thumbImg_Rcia_Poyo_Roc' class='jspHijack'>
       1964 - Residencia Poyo Roc
@@ -273,7 +299,10 @@
     </a>
     - Punta del Este - Construyó Ciapessoni Falco, fotografía Julius
     Shulman, fotógrafo oficial de Richard Neutra. Se publica en el
-    suplemento de <em>Los Ángeles Time</em>.
+    suplemento de
+    <em>
+      Los Ángeles Time
+    </em>.
   </li>
   <li>
     1966 - Residencia Lagorio - Punta del Este.
@@ -377,15 +406,27 @@
   Marina, Arrecifes y Yacht, y así como en numerosas. Se continúa con el
   uso y expresión del hormigón armado a la vista en la importante serie de
   obras desarrollada gracias al talento emprendedor del
-  <strong>Cr. Luis E. Lecueder</strong>. Esta serie se inicia con el
-  Edificio Berna de 1969 y fue parte del prólogo de la creación de
-  <strong>SAFEMA</strong> (Sociedad Anónima Fomento Edilicio de Maldonado).
-  La primera razón del éxito de <strong>SAFEMA</strong> fue la
-  constitución de la sociedad y su integración: un grupo de amigos de
+  <strong>
+    Cr. Luis E. Lecueder
+  </strong>.
+  Esta serie se inicia con el Edificio Berna de 1969 y fue parte del prólogo de
+  la creación de
+  <strong>
+    SAFEMA
+  </strong>
+  (Sociedad Anónima Fomento Edilicio de Maldonado). La primera razón del éxito
+  de
+  <strong>
+    SAFEMA
+  </strong>
+  fue la constitución de la sociedad y su integración: un grupo de amigos de
   áreas diferentes. En la presidencia el
-  <strong> Cr. Luis Lecueder</strong> con una impecable administración se
-  respaldaba con la gestión del <strong>estudio</strong>
-  <strong>Gómez Platero-López Rey Arquitectos.</strong>
+  <strong>Cr. Luis Lecueder
+  </strong>
+  con una impecable administración se respaldaba con la gestión del
+  <strong>
+    estudio Gómez Platero-López Rey Arquitectos
+  </strong>.
 </p>
 <p>
   El Cr. Luis E. Lecueder fue el verdadero creador de la estructura de
@@ -402,36 +443,49 @@
 </p>
 <p>
   Luego intervienen las tres Inmobiliarias de mayor prestigio en la zona,
-  <strong>Gattas, Sader y Paullier,</strong> antiguas y excelentes
-  empresas. Se consolidaba un triángulo de excelente gestión profesional.
-  Se licitaban primero las obras de hormigón armado empezando por
-  instalaciones eléctricas y sanitarias. Después se licitaban las obras de
-  albañilería con la misma empresa inicial o con otra más conveniente.
+  <strong>
+    Gattas, Sader y Paullier
+  </strong>,
+  antiguas y excelentes empresas. Se consolidaba un triángulo de excelente
+  gestión profesional. Se licitaban primero las obras de hormigón armado
+  empezando por instalaciones eléctricas y sanitarias. Después se licitaban las
+  obras de albañilería con la misma empresa inicial o con otra más conveniente.
 </p>
 <p>
   Seguidamente se iniciaban todos los subcontratos que debían intervenir
   en rigurosa fecha en los respectivos momentos. El estudio de
   Arquitectura autorizaba los pagos, si correspondía, en calidad de
   trabajo y puntualidad de los mismos. Esta información la recibía el
-  <strong>estudio Lecueder</strong> y de inmediato, previo chequeo, se
-  realizaban los pagos. Los fondos no pasaban por la Empresa Constructora,
-  sino que iban directamente al subcontrato o proveedor. Esto les permitía
-  a todos los integrantes de la obra percibir puntualmente el monto de los
-  trabajos ya realizados terminando con la tradición de recibir la Empresa
-  principal el monto total de los certificados. Como consecuencia, SAFEMA
-  obtuvo un fuerte prestigio en la plaza de Montevideo y en Punta del
-  Este, lo que le permitió realizar una gran cantidad de obras. Los
-  apartamentos siempre se entregaron en los plazos acordados.
+  <strong>
+    estudio Lecueder
+  </strong>
+  y de inmediato, previo chequeo, se realizaban los pagos. Los fondos no pasaban
+  por la Empresa Constructora, sino que iban directamente al subcontrato o
+  proveedor. Esto les permitía a todos los integrantes de la obra percibir
+  puntualmente el monto de los trabajos ya realizados terminando con la
+  tradición de recibir la Empresa principal el monto total de los certificados.
+  Como consecuencia, SAFEMA obtuvo un fuerte prestigio en la plaza de Montevideo
+  y en Punta del Este, lo que le permitió realizar una gran cantidad de obras.
+  Los apartamentos siempre se entregaron en los plazos acordados.
 </p>
 <p>
   Se vuelve a la expresión estructural y al uso del hormigón armado como
   expresión plástica y formal. En ese período se incorporan al estudio, en
-  calidad de <strong>Arquitectos Asociados</strong>, el
-  <strong>Arq.</strong> <strong>Enrique Cohe (1973)</strong> y el
-  <strong> Arq. Roberto Alberti (1976)</strong>. El Arq. Enrique Cohe
-  colabora en sus comienzos en la dirección de obras en Punta del Este y
-  luego ingresa en el área de proyectos, mientras que el Arq. Roberto
-  Alberti trabaja como colaborador importante en el área de
+  calidad de
+  <strong>
+    Arquitectos Asociados
+  </strong>,
+  el
+  <strong>
+    Arq. Enrique Cohe (1973)
+  </strong>
+  y el
+  <strong>
+    Arq. Roberto Alberti (1976)
+  </strong>.
+  El Arq. Enrique Cohe colabora en sus comienzos en la dirección de obras en
+  Punta del Este y luego ingresa en el área de proyectos, mientras que el Arq.
+  Roberto Alberti trabaja como colaborador importante en el área de
   presupuestación, dirección y administración de las obras.
 </p>
 <p>
@@ -445,9 +499,11 @@
   Con SAFEMA se realizan las siguientes obras:
 </p>
 <p>
-  <strong>En Punta del Este</strong>:
+  <strong>
+    En Punta del Este
+  </strong>:
 </p>
-<ol>
+<ol class="ordered-list-continue">
   <li>
     <a href='#thumbImg_Virazon' class='jspHijack'>
       1974 - Edificio Virazón
@@ -495,7 +551,7 @@
   estudio. Los cuatro Malecones nacieron en parte de su importante
   intervención.
 </p>
-<ol>
+<ol class="ordered-list-continue">
   <li>
     <a href='#thumbImg_Malecon_I_II_III' class='jspHijack'>
       1975 - 1980 - Conjunto de los 4 Edificios Malecón, Malecón I
@@ -530,8 +586,7 @@
   </li>
   <li>
     <a href='#thumbImg_Torres_Plata' class='jspHijack'>
-      1978 - 1980 - Conjunto Torres del Plata, Torre I, Torre II,
-      Torre III
+      1978 - 1980 - Conjunto Torres del Plata, Torre I, Torre II, Torre III
     </a>
     - Construye Norte.
   </li>
@@ -561,9 +616,11 @@
   </li>
 </ol>
 <p>
-  <strong>Y en Montevideo:</strong>
+  <strong>
+    Y en Montevideo:
+  </strong>
 </p>
-<ol>
+<ol class="ordered-list-continue">
   <li>
     <a href='#thumbImg_Del_Puerto' class='jspHijack'>
       1979 - Edificio Del Puerto
@@ -614,9 +671,11 @@
   últimamente la Arqta. Marta Arjona.
 </p>
 <p>
-  <strong>Otras obras realizadas en Montevideo:</strong>
+  <strong>
+    Otras obras realizadas en Montevideo:
+  </strong>
 </p>
-<ol>
+<ol class="ordered-list-continue">
   <li>
     <a href='#thumbImg_Agencia_Banco_Holandes_Unido' class='jspHijack'>
       1973 - Agencia del Banco Holandés Unido
@@ -665,7 +724,7 @@
   Holandés de Buenos Aires con el propósito de mejorar y actualizar su
   funcionalidad.
 </p>
-<ol>
+<ol class="ordered-list-continue">
   <li>
     <a href='#thumbImg_Muebleria_Caviglia' class='jspHijack'>
       1983 - Reciclaje del Edificio de la antigua Mueblería Caviglia
@@ -698,7 +757,7 @@
   color que faltaba en el gris de la cultura urbana de la ciudad de
   Montevideo.
 </p>
-<ol>
+<ol class="ordered-list-continue">
   <li>
     <a href='#thumbImg_Rcia_Scasso' class='jspHijack'>
       1990 - Residencia en la Calle Scasso
@@ -722,7 +781,7 @@
   Termina su actividad profesional con las siguientes obras junto con la
   Empresa Constructora Novino:
 </p>
-<ol>
+<ol class="ordered-list-continue">
   <li>
     <a href='#thumbImg_Palmas_del_Golf' class='jspHijack'>
       1995 - Edificio Palmas del Golf
@@ -737,7 +796,9 @@
   </li>
 </ol>
 <p>
-  <strong>Anteproyectos de 1960 a 1971:</strong>
+  <strong>
+    Anteproyectos de 1960 a 1971:
+  </strong>
 </p>
 <ol>
   <li>
@@ -797,7 +858,9 @@
   </li>
 </ol>
 <p>
-  <strong>Proyectos urbanísticos:</strong>
+  <strong>
+    Proyectos urbanísticos:
+  </strong>
 </p>
 <ol>
   <li>
@@ -814,7 +877,8 @@
     en el que colabora el Arq. Arturo Villamil.
   </li>
   <li>
-    Colaboración en el Proyecto de <a href='#thumbImg_Proy_Urban_Vilazar_Del_Mar' class='jspHijack'>
+    Colaboración en el Proyecto de
+    <a href='#thumbImg_Proy_Urban_Vilazar_Del_Mar' class='jspHijack'>
       Ciudad Satélite Vilazar del Mar
     </a>
     en Punta de Yeguas, Montevideo, del estudio del Arq. Raúl Sichero
@@ -827,94 +891,165 @@
 </p>
 <ul>
   <li>
-    <strong>Arq. Carlos Gómez Gavazzo</strong>  gran maestro y profesor de
-    Arquitectura que aportó coherencia.
+    <strong>
+      Arq. Carlos Gómez Gavazzo
+    </strong>
+    gran maestro y profesor de Arquitectura que aportó coherencia.
   </li>
   <li>
-    <strong>Arq. Ramón González Almeida gran profesor de Arquitectura,
-    consejero y amigo de todos los tiempos.</strong>
+    <strong>
+      Arq. Ramón González Almeida gran profesor de Arquitectura, consejero y
+      amigo de todos los tiempos.
+    </strong>
   </li>
   <li>
-    <strong>Arq. Don Alberto Muñóz</strong> <strong>del Campo</strong>.
+    <strong>
+      Arq. Don Alberto Muñóz
+    </strong>
+    <strong>
+      del Campo
+    </strong>.
     Fue una maravillosa experiencia trabajar con él.
   </li>
   <li>
-    <strong>Don Leonel Viera</strong>, gran creador de estructuras no
-    convencionales.
+    <strong>
+      Don Leonel Viera
+    </strong>,
+    gran creador de estructuras no convencionales.
   </li>
   <li>
-    <strong>Arq. Guillermo Gómez Platero</strong>, socio de tantos años.
+    <strong>
+      Arq. Guillermo Gómez Platero
+    </strong>,
+    socio de tantos años.
   </li>
   <li>
-    <strong>Ing. Jorge Bermúdez</strong> e <strong>Ing. Mario Simeto</strong>
+    <strong>
+      Ing. Jorge Bermúdez
+    </strong>
+    e
+    <strong>
+      Ing. Mario Simeto
+    </strong>
     colaboradores en todas las estructuras realizadas a lo largo de los años.
   </li>
   <li>
-    <strong>Arq. Enrique Cohe y Arq. Roberto Alberti,</strong> excelentes
-    estudiantes y luego privilegiados arquitectos asociados.
+    <strong>
+      Arq. Enrique Cohe y Arq. Roberto Alberti
+    </strong>,
+    excelentes estudiantes y luego privilegiados arquitectos asociados.
   </li>
   <li>
-    <strong>Arq. Eduardo Mariño, </strong>excelente colaborador en las
-    obras de Punta del Este.
+    <strong>
+      Arq. Eduardo Mariño
+    </strong>,
+    excelente colaborador en las obras de Punta del Este.
   </li>
   <li>
-    <strong>Arq. Raúl Clerc</strong>, <strong>Arq. Luis Vaia, Arq.</strong>
-    <strong>José Scheps</strong>, amigos y grandes profesores de
-    construcción.
+    <strong>
+      Arq. Raúl Clerc
+    </strong>,
+    <strong>
+      Arq. Luis Vaia, Arq.
+    </strong>
+    <strong>
+      José Scheps
+    </strong>,
+    amigos y grandes profesores de construcción.
   </li>
   <li>
-    <strong>Cr. Luis E. Lecueder y Alberto Lecueder</strong>, excepcionales
-    amigos y grandes realizadores.
+    <strong>
+      Cr. Luis E. Lecueder y Alberto Lecueder
+    </strong>,
+    excepcionales amigos y grandes realizadores.
   </li>
   <li>
-    <strong>Vicente Martín</strong>, querido amigo, excepcional pintor e
-    inolvidable compañero de viaje.
+    <strong>
+      Vicente Martín
+    </strong>,
+    querido amigo, excepcional pintor e inolvidable compañero de viaje.
   </li>
   <li>
-    <strong>Raúl Portal</strong>, querido amigo y colaborador de un
-    sinnúmero de trabajos de integración de esculturas a los edificios.
+    <strong>
+      Raúl Portal
+    </strong>,
+    querido amigo y colaborador de un sinnúmero de trabajos de integración de
+    esculturas a los edificios.
   </li>
   <li>
-    <strong>Arq.</strong> <strong>Raúl Sichero Bouret</strong>, amigo desde
-    comienzos de 1953, gran arquitecto, dueño de una excepcional coherencia
-    arquitectural que demuestra en todas sus obras.
+    <strong>
+      Arq. Raúl Sichero Bouret
+    </strong>,
+    amigo desde comienzos de 1953, gran arquitecto, dueño de una excepcional
+    coherencia arquitectural que demuestra en todas sus obras.
   </li>
   <li>
-    <strong>Horacio González</strong> y <strong>Evenina Rodríguez,</strong>
+    <strong>
+      Horacio González
+    </strong>
+    y
+    <strong>
+      Evenina Rodríguez
+    </strong>,
     primeros y grandes colaboradores.
   </li>
   <li>
-    <strong>Juan Lazar</strong>, cuya significativa ayuda me permitió
-    presupuestar con éxito el Edificio Berna.
+    <strong>
+      Juan Lazar
+    </strong>,
+    cuya significativa ayuda me permitió presupuestar con éxito el Edificio
+    Berna.
   </li>
   <li>
-    <strong>Sr. Jacobo</strong> <strong>Puzynin</strong>, quien hizo la
-    estructura del Edificio Puerto, mi casa Ahel y otras residencias.
+    <strong>
+      Sr. Jacobo Puzynin
+    </strong>,
+    quien hizo la estructura del Edificio Puerto, mi casa Ahel y otras
+    residencias.
   </li>
   <li>
-    <strong>Sres. Arnaldo Albertini</strong> y
-    <strong>Don Jaime Sanabria</strong>, grandes capataces de obras de
-    Montevideo y Punta del Este.
+    <strong>
+      Sres. Arnaldo Albertini
+    </strong>
+    y
+    <strong>
+      Don Jaime Sanabria
+    </strong>,
+    grandes capataces de obras de Montevideo y Punta del Este.
   </li>
   <li>
-    <strong>Cr. William Rosso</strong> gran amigo con quien desarrollé la
-    administración de la obra del Edificio Palmas del Golf.
+    <strong>
+      Cr. William Rosso
+    </strong>
+    gran amigo con quien desarrollé la administración de la obra del Edificio
+    Palmas del Golf.
   </li>
   <li>
-    <strong>Don Soccorso Novino,</strong> valioso constructor de tantas
-    obras en Montevideo y en Punta del Este con quien tuve el placer de
-    realizar Palmas del Golf y Faro de Punta de Brava.
+    <strong>
+      Don Soccorso Novino
+    </strong>,
+    valioso constructor de tantas obras en Montevideo y en Punta del Este con
+    quien tuve el placer de realizar Palmas del Golf y Faro de Punta de Brava.
   </li>
   <li>
-    <strong>Arq. Tomas Sprechman, Arq. Arturo Villamil, Arq. Enrique Benech
-    y Arq. Marta Arjona</strong>,
+    <strong>
+      Arq. Tomas Sprechman, Arq. Arturo Villamil, Arq. Enrique Benech y Arq.
+      Marta Arjona
+    </strong>,
     valiosos colaboradores.
   </li>
   <li>
-    <strong>Arq.</strong> <strong>Leo Ravera, Arq. Luis Cano</strong>,
-    <strong>Arq.</strong> <strong>Eduardo Mazzeo,</strong> y
-    <strong>Arq. Gabriela Benítez,</strong> colaboradores en mis últimos
-    años de actividad.
+    <strong>
+      Arq. Leo Ravera, Arq. Luis Cano
+    </strong>,
+    <strong>
+      Arq. Eduardo Mazzeo
+    </strong>,
+    y
+    <strong>
+      Arq. Gabriela Benítez
+    </strong>,
+    colaboradores en mis últimos años de actividad.
   </li>
 </ul>
 <p>
@@ -926,7 +1061,9 @@
 <p>
   Finalmente, debo señalar la importancia que tuvo para mi vida y obra
   desde 1961, la compañía de mi querida esposa,
-  <strong>Lea Verdesio Salvo</strong>, que estuvo siempre a mi lado durante
-  tantos años acompañándome en todas mis obras en Montevideo,
-  Punta del Este, Italia y en todos nuestros largos viajes.
+  <strong>
+    Lea Verdesio Salvo
+  </strong>,
+  que estuvo siempre a mi lado durante tantos años acompañándome en todas mis
+  obras en Montevideo, Punta del Este, Italia y en todos nuestros largos viajes.
 </p>

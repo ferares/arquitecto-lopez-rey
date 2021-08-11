@@ -1,0 +1,19 @@
+.ordered-list-start {
+  counter-reset: mycounter;
+}
+
+.ordered-list-start li,
+.ordered-list-continue li {
+  list-style: none;
+}
+
+.ordered-list-start,
+.ordered-list-continue {
+  padding-left: 1rem;
+}
+
+.ordered-list-start li::before,
+.ordered-list-continue li::before {
+  content: counter(mycounter) ". ";
+  counter-increment: mycounter;
+}

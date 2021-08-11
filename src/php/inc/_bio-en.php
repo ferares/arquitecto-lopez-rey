@@ -76,7 +76,8 @@
   </strong>
   workshop in the School of Architecture. Here, he conducts an excellent class.
   <strong>
-    Rodolfo López Rey</strong>
+    Rodolfo López Rey
+  </strong>
     admires
   <strong>
     Paul Rudolph
@@ -140,7 +141,7 @@
   </strong>
   is formed.
 </p>
-<ol>
+<ol class="ordered-list-start">
   <li>
     <a href='#thumbImg_Puerto' class='jspHijack'>
       1959 -
@@ -228,7 +229,7 @@
 </ol>
 <p>
   <strong>
-    <span class='destacado'>
+    <span class='lead'>
       Letters of recommendation from architects sent to Mr. Salvatore Cándido,
       the Director of the Italian Cultural Institute for a scholarship in Italy:
     </span>
@@ -266,7 +267,6 @@
     </a>
   </li>
 </ol>
-
 <p>
   In 1963 he takes up teaching as a 1st year assistant of Isern workshop, held by
   <strong>
@@ -357,7 +357,7 @@
   language, which finds its reflection in many residential houses as well as in
   some buildings built in Punta del Este and Montevideo, namely:
 </p>
-<ol>
+<ol class="ordered-list-continue">
   <li>
     <a href='#thumbImg_Rcia_Poyo_Roc' class='jspHijack'>
       1964 -
@@ -692,7 +692,7 @@
     In Punta del Este:
   </strong>
 </p>
-<ol>
+<ol class="ordered-list-continue">
   <li>
     <a href='#thumbImg_Virazon' class='jspHijack'>
       1974 -
@@ -774,7 +774,7 @@
   </em>
   were born.
 </p>
-<ol>
+<ol class="ordered-list-continue">
   <li>
     <a href='#thumbImg_Malecon_I_II_III' class='jspHijack'>
       1975 - 1980 - Malecon I - Ciapessoni Falco Construction company, Malecon
@@ -864,7 +864,7 @@
     In Montevideo:
   </strong>
 </p>
-<ol>
+<ol class="ordered-list-continue">
   <li>
     <a href='#thumbImg_Del_Puerto' class='jspHijack'>
       1979 -
@@ -951,7 +951,7 @@
     Other works in Montevideo:
   </strong>
 </p>
-<ol>
+<ol class="ordered-list-continue">
   <li>
     <a href='#thumbImg_Agencia_Banco_Holandes_Unido' class='jspHijack'>
       1973 -
@@ -1023,7 +1023,7 @@
   </a>, He also takes on some minor tasks in the branches of Banco Holandés of
   Buenos Aires aiming to enhance and update its functionality.
 </p>
-<ol>
+<ol class="ordered-list-continue">
   <li>
     <a href='#thumbImg_Muebleria_Caviglia' class='jspHijack'>
       1983 - Renovation of the old furniture shop building
@@ -1066,7 +1066,7 @@
   It is in this moment when he begins a colorful period that was lacking in the
   grey urban culture of Montevideo city.
 </p>
-<ol>
+<ol class="ordered-list-continue">
   <li>
     <a href='#thumbImg_Rcia_Scasso' class='jspHijack'>
       1990 - Residential House on Scasso Street
@@ -1099,7 +1099,7 @@
   He concludes his professional career with the following works with Novino
   Construction company:
 </p>
-<ol>
+<ol class="ordered-list-continue">
   <li>
     <a href='#thumbImg_Palmas_del_Golf' class='jspHijack'>
       1995 -
