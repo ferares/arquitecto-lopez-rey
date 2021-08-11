@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Get a path to a file with hashcode
  * @param String $filename name of the file
