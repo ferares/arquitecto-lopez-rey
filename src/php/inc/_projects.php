@@ -468,7 +468,7 @@ $projects = array(
 
 <ul class="projects list-unstyled">
   <?php foreach ($projects as $project): ?>
-    <li class="project mb-4">
+    <li id="project-<?php echo $project['prefix'] ?>" class="project mb-4">
       <a class="card" href="#">
         <img src="<?php echoImgPath('/gallery/'.$project['prefix'].'_big_01.jpg') ?>" aria-labelledby="project-title-<?php echo $project['prefix'] ?>" class="img-fluid card-img-top project__img">
         <div class="card-body">
