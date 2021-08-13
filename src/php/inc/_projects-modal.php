@@ -1,21 +1,3 @@
-<ul class="projects-list list-unstyled">
-  <?php foreach ($projects as $prefix => $project): ?>
-    <li id="project-<?php echo $prefix ?>" class="project mb-4">
-      <a class="card shadow-sm text-decoration-none text-reset js-project" href="#" data-project-prefix="<?php echo $prefix ?>" data-project-title="<?php echo "$project[name] ($project[location])" ?>">
-        <img src="<?php echoImgPath('/gallery/'.$prefix.'_small_01.jpg') ?>" aria-labelledby="project-title-<?php echo $prefix ?>" class="img-fluid card-img-top project__img">
-        <div class="card-body text-center">
-          <h3 id="project-title-<?php echo $prefix ?>" class="card-title project__name h6">
-            <?php echo $project['name'] ?>
-          </h3>
-          <p class="card-text project__location">
-            (<?php echo $project['location'] ?>)
-          </p>
-        </div>
-      </a>
-    </li>
-  <?php endforeach; ?>
-</ul>
-
 <div class="modal fade js-modal js-projects-modal" id="projects-modal" tabindex="-1" aria-labelledby="projects-modal-title" aria-hidden="true">
   <div class="modal-dialog modal-xl">
     <div class="modal-content">

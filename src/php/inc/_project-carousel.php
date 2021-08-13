@@ -9,13 +9,15 @@ for ($i = 0; $i < $project['imgCount']; $i++) {
 }
 ?>
 
-<div id="projects-modal-carousel" class="carousel slide">
+<div id="projects-modal-carousel" class="carousel slide" data-bs-interval="false">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#projects-modal-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Foto 1"></button>
-    <?php for ($i = 1; $i < count($photos); $i++) : ?>
-      <button type="button" data-bs-target="#projects-modal-carousel" data-bs-slide-to="<?php echo $i ?>" aria-label="Foto <?php echo ($i + 1) ?>">
-      </button>
-    <?php endfor; ?>
+    <?php if (count($photos) > 1): ?>
+      <button type="button" data-bs-target="#projects-modal-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="<?php echo TRANSLATIONS['photo'] ?> 1"></button>
+      <?php for ($i = 1; $i < count($photos); $i++) : ?>
+        <button type="button" data-bs-target="#projects-modal-carousel" data-bs-slide-to="<?php echo $i ?>" aria-label="<?php echo TRANSLATIONS['photo'] ?> <?php echo ($i + 1) ?>">
+        </button>
+      <?php endfor; ?>
+    <?php endif; ?>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -27,16 +29,18 @@ for ($i = 0; $i < $project['imgCount']; $i++) {
       </div>
     <?php endfor; ?>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#projects-modal-carousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">
-      <?php echo TRANSLATIONS['previous'] ?>
-    </span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#projects-modal-carousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">
-      <?php echo TRANSLATIONS['next'] ?>
-    </span>
-  </button>
+  <?php if (count($photos) > 1): ?>
+    <button class="carousel-control-prev" type="button" data-bs-target="#projects-modal-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">
+        <?php echo TRANSLATIONS['previous'] ?>
+      </span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#projects-modal-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">
+        <?php echo TRANSLATIONS['next'] ?>
+      </span>
+    </button>
+  <?php endif; ?>
 </div>

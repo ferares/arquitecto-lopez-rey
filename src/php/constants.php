@@ -15,8 +15,9 @@ if ($lang === 'en') {
     'copyright' => '(c) ' . date('Y') . ' All rights reserved.',
     'tooltip_photo' => 'Click to enlarge',
     'personal_header' => 'Personal Photos',
-    'link_biography' => 'Biography and Projects',
+    'link_biography' => 'Biography',
     'link_personal' => 'Personal Photos',
+    'link_projects' => 'Projects',
     'link_language' => 'Versión español',
     'href_language' => '?lang=es',
     'bio' => '_bio-en.php',
@@ -25,6 +26,9 @@ if ($lang === 'en') {
     'close' => 'cerrar',
     'enlarge' => 'Enlarge',
     'reduce' => 'Reduce',
+    'letters' => 'Letters',
+    'letter_from' => 'Letter from',
+    'photo' => 'Photo',
   ));
 } else {
   define('TRANSLATIONS', array(
@@ -36,8 +40,9 @@ if ($lang === 'en') {
     'personal_header' => 'Fotos personales',
     'copyright' => '(c) ' . date('Y') . ' Todos los derechos reservados.',
     'tooltip_photo' => 'Click para agrandar',
-    'link_biography' => 'Biografía y Obras',
+    'link_biography' => 'Biografía',
     'link_personal' => 'Fotos Personales',
+    'link_projects' => 'Obras',
     'link_language' => 'English version',
     'href_language' => '?lang=en',
     'bio' => '_bio-es.php',
@@ -46,6 +51,9 @@ if ($lang === 'en') {
     'close' => 'cerrar',
     'enlarge' => 'Agrandar',
     'reduce' => 'Achicar',
+    'letters' => 'Cartas',
+    'letter_from' => 'Carta del',
+    'photo' => 'Foto',
   ));
 }
 

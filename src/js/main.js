@@ -2,19 +2,18 @@ $(document).ready(function() {
   $('.js-project').on('click', function(event) {
     event.preventDefault();
     var $modal = $('.js-projects-modal');
-    var title = $(event.currentTarget).data('project-title');
     var prefix = $(event.currentTarget).data('project-prefix');
     $.ajax({
       type: 'POST',
-      dataType: 'html',
+      dataType: 'json',
       url: '/',
       data: {
         action: 'project-carousel',
         prefix: prefix,
        },
       success: (res) => {
-        $modal.find('.modal-body').html(res);
-        $modal.find('.modal-title').html(title);
+        $modal.find('.modal-body').html(res.carousel);
+        $modal.find('.modal-title').html(res.title);
         $modal.modal('show');
       },
     });
@@ -32,7 +31,8 @@ $(document).ready(function() {
     $('.js-modal .modal-dialog').toggleClass('modal-fullscreen');
   });
 
-  var headerHeight = $('.js-header').outerHeight(true);
-  $('.js-biography').css('height', `calc(100vh - ${headerHeight}px)`);
-  $('.js-projects').css('height', `calc(100vh - ${headerHeight}px)`);
+  $('.js-letters-modal').on('show.bs.modal', function(event) {
+    console.log($(event.relatedTarget).data('index'));
+    $('.js-letters-modal-carousel').carousel($(event.relatedTarget).data('index'));
+  });
 });

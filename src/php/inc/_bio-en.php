@@ -98,7 +98,7 @@
   </strong>
   - designer of the hanging bridge over Maldonado stream in Punta del Este - to
   prepare a draft for
-  <a href="#project-Edificio_Centenario" class="js-project-finder">
+  <a href="#" data-project-prefix="Edificio_Centenario" class="js-project">
     <em>
       Centenario
     </em>
@@ -119,14 +119,14 @@
     architect Guillermo Gómez Platero,
   </strong>
   he takes part in several projects, such as
-  <a href="#project-Finisterre" class="js-project-finder">
+  <a href="#" data-project-prefix="Finisterre" class="js-project">
     <em>
       Finisterre
     </em>
     Building
   </a>
   on Rambla República del Perú in Montevideo, and
-  <a href="#project-Puerto" class="js-project-finder">
+  <a href="#" data-project-prefix="Puerto" class="js-project">
     <em>
       Puerto
     </em>
@@ -143,7 +143,7 @@
 </p>
 <ol class="ordered-list-start">
   <li>
-    <a href="#project-Puerto" class="js-project-finder">
+    <a href="#" data-project-prefix="Puerto" class="js-project">
       1959 -
       <em>
         Puerto
@@ -153,7 +153,7 @@
     - Punta del Este - Clerc y Guerra Construction company.
   </li>
   <li>
-    <a href="#project-Corrientes" class="js-project-finder">
+    <a href="#" data-project-prefix="Corrientes" class="js-project">
       1960 -
       <em>
         Corrientes
@@ -163,7 +163,7 @@
     - Montevideo.
   </li>
   <li>
-    <a href="#project-Residencia_Pepe_Suarez" class="js-project-finder">
+    <a href="#" data-project-prefix="Residencia_Pepe_Suarez" class="js-project">
       1961 -
       <em>
         Pepe
@@ -173,7 +173,7 @@
     - Punta del Este - Clerc y Guerra Construction company.
   </li>
   <li>
-    <a href="#project-Socaire" class="js-project-finder">1961 -
+    <a href="#" data-project-prefix="Socaire" class="js-project">1961 -
       <em>
         Socaire
       </em>
@@ -182,7 +182,7 @@
     - Punta del Este - Clerc y Guerra Construction company.
   </li>
   <li>
-    <a href="#project-Taller_Scalone" class="js-project-finder">1962 -
+    <a href="#" data-project-prefix="Taller_Scalone" class="js-project">1962 -
       <em>
         Scalone
       </em>
@@ -191,7 +191,7 @@
     - Clerc y Guerra Construction company.
   </li>
   <li>
-    <a href="#project-Rcia_Son_Pura" class="js-project-finder">
+    <a href="#" data-project-prefix="Rcia_Son_Pura" class="js-project">
       1962 -
       <em>
         Son
@@ -201,7 +201,7 @@
     - Punta del Este - Clerc y Guerra Construction company.
   </li>
   <li>
-    <a href="#project-Residencia_Lopez_Rey" class="js-project-finder">
+    <a href="#" data-project-prefix="Residencia_Lopez_Rey" class="js-project">
       1962 - López Rey
       <em>
         Ahel
@@ -211,7 +211,7 @@
     - Punta del Este - Clerc y Guerra Construction company.
   </li>
   <li>
-    <a href="#project-Finisterre" class="js-project-finder">
+    <a href="#" data-project-prefix="Finisterre" class="js-project">
       1963 -
       <em>
         Finisterre
@@ -221,7 +221,7 @@
     - Montevideo - García Otero Butler y Zaffaroni S.A. Construction company.
   </li>
   <li>
-    <a href="#project-Finisterre" class="js-project-finder">
+    <a href="#" data-project-prefix="Finisterre" class="js-project">
       1963 - Pocitos Branch, Banco del Litoral
     </a>
     located on Brasil Ave. - Montevideo
@@ -237,33 +237,33 @@
 </p>
 <ol>
   <li>
-    <a class="js-letter-finder" href="images/cartas/gonzalezAlmeida.jpg">
-      Ar. Ramón González Almeida
+    <a href="/imgs/cartas/gonzalezAlmeida.jpg" target="_blank" data-bs-toggle="modal" data-bs-target="#letters-modal" data-index="0">
+      Arq. Ramón González Almeida
     </a>
   </li>
   <li>
-    <a class="js-letter-finder" href="images/cartas/sichero.jpg">
-      Ar. Raúl Sichero
+    <a href="/imgs/cartas/sichero.jpg" target="_blank" data-bs-toggle="modal" data-bs-target="#letters-modal" data-index="1">
+      Arq. Raúl Sichero
     </a>
   </li>
   <li>
-    <a class="js-letter-finder" href="images/cartas/garciaPardo.jpg">
-      Ar. Luis García Pardo
+    <a href="/imgs/cartas/garciaPardo.jpg" target="_blank" data-bs-toggle="modal" data-bs-target="#letters-modal" data-index="2">
+      Arq. Luis García Pardo
     </a>
   </li>
   <li>
-    <a class="js-letter-finder" href="images/cartas/viera.jpg">
+    <a href="/imgs/cartas/viera.jpg" target="_blank" data-bs-toggle="modal" data-bs-target="#letters-modal" data-index="3">
       Leonel Viera
     </a>
   </li>
   <li>
-    <a class="js-letter-finder" href="images/cartas/munozdelCampo.jpg">
-      Ar. Don Alberto Muñóz del Campo
+    <a href="/imgs/cartas/munozdelCampo.jpg" target="_blank" data-bs-toggle="modal" data-bs-target="#letters-modal" data-index="4">
+      Arq. Don Alberto Muñóz del Campo
     </a>
   </li>
   <li>
-    <a class="js-letter-finder" href="images/cartas/ricardoSaxlund.jpg">
-      Ar. Ricardo Saxlund
+    <a href="/imgs/cartas/ricardoSaxlund.jpg" target="_blank" data-bs-toggle="modal" data-bs-target="#letters-modal" data-index="5">
+      Arq. Ricardo Saxlund
     </a>
   </li>
 </ol>
@@ -298,7 +298,7 @@
   the same company aimed at the construction of pre-manufactured houses with a
   metal structure. The assembly parts are built at a car assembly factory.
   During this stage he creates the
-  <a href="#project-Fantasias_Italianas" class="js-project-finder">
+  <a href="#" data-project-prefix="Fantasias_Italianas" class="js-project">
     Italian fantasies
   </a>.
 </p>
@@ -359,7 +359,7 @@
 </p>
 <ol class="ordered-list-continue">
   <li>
-    <a href="#project-Rcia_Poyo_Roc" class="js-project-finder">
+    <a href="#" data-project-prefix="Rcia_Poyo_Roc" class="js-project">
       1964 -
       <em>
         Poyo Roc
@@ -369,7 +369,7 @@
     - Punta del Este - Clerc y Guerra Construction company.
   </li>
   <li>
-    <a href="#project-Continental" class="js-project-finder">
+    <a href="#" data-project-prefix="Continental" class="js-project">
       1965 -
       <em>
         Continental
@@ -379,7 +379,7 @@
     - Punta del Este.
   </li>
   <li>
-    <a href="#project-San_Michelle" class="js-project-finder">
+    <a href="#" data-project-prefix="San_Michelle" class="js-project">
       1966 -
       <em>
         San Michelle
@@ -390,7 +390,7 @@
     S.A. Construction company.
   </li>
   <li>
-    <a href="#project-Tres_Marias" class="js-project-finder">
+    <a href="#" data-project-prefix="Tres_Marias" class="js-project">
       1966 -
       <em>
         Las Tres Marías
@@ -400,13 +400,13 @@
     - Punta del Este - Ciapessoni Falco Construction company.
   </li>
   <li>
-    <a href="#project-El_Fortin" class="js-project-finder">
+    <a href="#" data-project-prefix="El_Fortin" class="js-project">
       1966 - El Fortín Building
     </a>
     - Punta del Este - Elbio Barabino Construction company.
   </li>
   <li>
-    <a href="#project-La_Caldera" class="js-project-finder">
+    <a href="#" data-project-prefix="La_Caldera" class="js-project">
       1966 -
       <em>
         La Caldera
@@ -427,7 +427,7 @@
     Residential House - Punta del Este.
   </li>
   <li>
-    <a href="#project-Alianza_Francesa" class="js-project-finder">
+    <a href="#" data-project-prefix="Alianza_Francesa" class="js-project">
       1967 -
       <em>
         Alliance Française
@@ -445,7 +445,7 @@
     Residential House - Lido Street - Montevideo - Puzynin Construction company.
   </li>
   <li>
-    <a href="#project-Berna" class="js-project-finder">
+    <a href="#" data-project-prefix="Berna" class="js-project">
       1969 -
       <em>
         Berna
@@ -464,7 +464,7 @@
     Rocha.
   </li>
   <li>
-    <a href="#project-Casa_El_Monarca" class="js-project-finder">
+    <a href="#" data-project-prefix="Casa_El_Monarca" class="js-project">
       1972 -
       <em>
         El Monarca
@@ -474,7 +474,7 @@
     - Punta del Este - Ciapessoni Falco Construction company.
   </li>
   <li>
-    <a href="#project-Paz_Marina" class="js-project-finder">
+    <a href="#" data-project-prefix="Paz_Marina" class="js-project">
       1972 -
       <em>
         Paz Marina
@@ -484,7 +484,7 @@
     - Punta del Este - SAFEMA - García Otero Butler y Zaffaroni S.A. Construction company.
   </li>
   <li>
-    <a href="#project-Yacht" class="js-project-finder">
+    <a href="#" data-project-prefix="Yacht" class="js-project">
       1972 -
       <em>
         Yacht
@@ -494,7 +494,7 @@
     - Punta del Este - Ciapessoni Falco Construction company.
   </li>
   <li>
-    <a href="#project-El_Remanso" class="js-project-finder">
+    <a href="#" data-project-prefix="El_Remanso" class="js-project">
       1972 -
       <em>
         El Remanso
@@ -504,7 +504,7 @@
     - Punta del Este - SAFEMA - Elbio Barabino Construction company.
   </li>
   <li>
-    <a href="#project-Coop_Vivienda" class="js-project-finder">
+    <a href="#" data-project-prefix="Coop_Vivienda" class="js-project">
       1973 - Housing Cooperative
       <em>
         José Pedro Varela
@@ -513,7 +513,7 @@
     on Concepción del Uruguay Street, Montevideo.
   </li>
   <li>
-    <a href="#project-Residencia_Saulieu" class="js-project-finder">
+    <a href="#" data-project-prefix="Residencia_Saulieu" class="js-project">
       1973 -
       <em>
         Saulieu
@@ -523,14 +523,14 @@
     - Punta del Este - Ciapessoni Falco Construction company.
   </li>
   <li>
-    <a href="#project-Ampliacion_Banco_Holandes_Unido" class="js-project-finder">
+    <a href="#" data-project-prefix="Ampliacion_Banco_Holandes_Unido" class="js-project">
       1974 - Enlargement of Banco Holandés Unido
     </a>,
     25 de Mayo and Treinta y Tres Streets - Montevideo, Carcavallo Construction
     company.
   </li>
   <li>
-    <a href="#project-Residencia_Goldfarb" class="js-project-finder">
+    <a href="#" data-project-prefix="Residencia_Goldfarb" class="js-project">
       1974 -
       <em>
         Goldfarb</em>
@@ -539,7 +539,7 @@
     - Montevideo.
   </li>
   <li>
-    <a href="#project-Rcia_Taranto" class="js-project-finder">
+    <a href="#" data-project-prefix="Rcia_Taranto" class="js-project">
       1978 -
       <em>
         Taranto
@@ -549,7 +549,7 @@
     - Montevideo - Stiler Construction company.
   </li>
   <li>
-    <a href="#project-Hogar_Espanol" class="js-project-finder">
+    <a href="#" data-project-prefix="Hogar_Espanol" class="js-project">
       1978 - Hogar Español de Ancianos
     </a>
     (Nursing Home) - Prado - Montevideo - Stiler Construction company.
@@ -562,7 +562,7 @@
     Residential House - Punta del Este.
   </li>
   <li>
-    <a href="#project-Residencia_Lecueder" class="js-project-finder">
+    <a href="#" data-project-prefix="Residencia_Lecueder" class="js-project">
       1979 -
       <em>
         Lecueder
@@ -694,7 +694,7 @@
 </p>
 <ol class="ordered-list-continue">
   <li>
-    <a href="#project-Virazon" class="js-project-finder">
+    <a href="#" data-project-prefix="Virazon" class="js-project">
       1974 -
       <em>
         Virazón
@@ -704,7 +704,7 @@
     - García Otero Butler y Zaffaroni S.A. Construction company.
   </li>
   <li>
-    <a href="#project-Arrecifes" class="js-project-finder">
+    <a href="#" data-project-prefix="Arrecifes" class="js-project">
       1974 -
       <em>
         Arrecifes
@@ -714,7 +714,7 @@
     - Ciapessoni Falco Construction company.
   </li>
   <li>
-    <a href="#project-Vendaval" class="js-project-finder">
+    <a href="#" data-project-prefix="Vendaval" class="js-project">
       1974 -
       <em>
         Vendaval
@@ -724,7 +724,7 @@
     - Finocchieti Construction company.
   </li>
   <li>
-    <a href="#project-Costa_Azul" class="js-project-finder">
+    <a href="#" data-project-prefix="Costa_Azul" class="js-project">
       1975 -
       <em>
         Costa Azul</em>
@@ -733,7 +733,7 @@
     - García Otero Butler y Zaffaroni S.A. Construction company.
   </li>
   <li>
-    <a href="#project-Varadero" class="js-project-finder">
+    <a href="#" data-project-prefix="Varadero" class="js-project">
       1975 -
       <em>
         Varadero
@@ -743,7 +743,7 @@
     - Ciapessoni Falco Construction company.
   </li>
   <li>
-    <a href="#project-Lobos" class="js-project-finder">
+    <a href="#" data-project-prefix="Lobos" class="js-project">
       1975 -
       <em>
         Lobos
@@ -776,18 +776,18 @@
 </p>
 <ol class="ordered-list-continue">
   <li>
-    <a href="#project-Malecon_I_II_III" class="js-project-finder">
+    <a href="#" data-project-prefix="Malecon_I_II_III" class="js-project">
       1975 - 1980 - Malecon I - Ciapessoni Falco Construction company, Malecon
       II, and III
     </a>
     - García Otero Butler y Zaffaroni S.A. Construction company, and
-    <a href="#project-Malecon_IV" class="js-project-finder">
+    <a href="#" data-project-prefix="Malecon_IV" class="js-project">
       Malecon IV
     </a>
     - CUOPSA Construction company.
   </li>
   <li>
-    <a href="#project-La_Caleta" class="js-project-finder">
+    <a href="#" data-project-prefix="La_Caleta" class="js-project">
       1977 -
       <em>
         La Caleta
@@ -797,7 +797,7 @@
     - Norte Construction company.
   </li>
   <li>
-    <a href="#project-Recalada" class="js-project-finder">
+    <a href="#" data-project-prefix="Recalada" class="js-project">
       1977 -
       <em>
         Recalada
@@ -806,7 +806,7 @@
     - Ciapessoni Falco Construction company.
   </li>
   <li>
-    <a href="#project-El_Monarca" class="js-project-finder">
+    <a href="#" data-project-prefix="El_Monarca" class="js-project">
       1978 -
       <em>
         El Monarca
@@ -816,7 +816,7 @@
     - García Otero Butler y Zaffaroni S.A. Construction company.
   </li>
   <li>
-    <a href="#project-Torres_Plata" class="js-project-finder">
+    <a href="#" data-project-prefix="Torres_Plata" class="js-project">
       1978 - 1980 -
       <em>
         Torres del Plata, Torre I, Torre II, Torre III
@@ -825,23 +825,23 @@
     Buildings - Norte Construction company.
   </li>
   <li>
-    <a href="#project-Puerto_del_Sol" class="js-project-finder">
+    <a href="#" data-project-prefix="Puerto_del_Sol" class="js-project">
       1979 - 1985 - Puerto del Sol
     </a>
     -
-    <a href="#project-Galeon" class="js-project-finder">
+    <a href="#" data-project-prefix="Galeon" class="js-project">
       <em>
         Galeón
       </em>
     </a>, 
-    <a href="#project-Goleta" class="js-project-finder">
+    <a href="#" data-project-prefix="Goleta" class="js-project">
       <em>
         Goleta
       </em>
       Buildings
     </a>
     - Ing. Mario Arrambide Constructor, and
-    <a href="#project-Fragata" class="js-project-finder">
+    <a href="#" data-project-prefix="Fragata" class="js-project">
       <em>
         Fragata
       </em>
@@ -849,7 +849,7 @@
     Building - CUOPSA Construction company.
   </li>
   <li>
-    <a href="#project-Torre_Gattas" class="js-project-finder">
+    <a href="#" data-project-prefix="Torre_Gattas" class="js-project">
       1980 -
       <em>
         Gattas
@@ -866,7 +866,7 @@
 </p>
 <ol class="ordered-list-continue">
   <li>
-    <a href="#project-Del_Puerto" class="js-project-finder">
+    <a href="#" data-project-prefix="Del_Puerto" class="js-project">
       1979 -
       <em>
         Del Puerto
@@ -876,7 +876,7 @@
     - Ciapessoni Falco Construction company.
   </li>
   <li>
-    <a href="#project-MEC" class="js-project-finder">
+    <a href="#" data-project-prefix="MEC" class="js-project">
       1979 - Ministry of Culture
       (<em>
         De La Reconquista
@@ -893,7 +893,7 @@
     Building - Ciapessoni Falco Construction company.
   </li>
   <li>
-    <a href="#project-Terrazas_Carrasco" class="js-project-finder">
+    <a href="#" data-project-prefix="Terrazas_Carrasco" class="js-project">
       1979 -
       <em>
         Terrazas de Carrasco
@@ -903,7 +903,7 @@
     - Maranges Construction company.
   </li>
   <li>
-    <a href="#project-Presidente" class="js-project-finder">
+    <a href="#" data-project-prefix="Presidente" class="js-project">
       1980 -
       <em>
         Presidente
@@ -913,7 +913,7 @@
     - Maranges Construction company.
   </li>
   <li>
-    <a href="#project-Regidor" class="js-project-finder">
+    <a href="#" data-project-prefix="Regidor" class="js-project">
       1983 -
       <em>
         Regidor
@@ -923,7 +923,7 @@
     - CUOPSA Construction company.
   </li>
   <li>
-    <a href="#project-Mdeo_Shopping" class="js-project-finder">
+    <a href="#" data-project-prefix="Mdeo_Shopping" class="js-project">
       1984 - Montevideo Shopping Center
     </a>
     - Engineer Dieste y Montañes.
@@ -953,7 +953,7 @@
 </p>
 <ol class="ordered-list-continue">
   <li>
-    <a href="#project-Agencia_Banco_Holandes_Unido" class="js-project-finder">
+    <a href="#" data-project-prefix="Agencia_Banco_Holandes_Unido" class="js-project">
       1973 -
       <em>
         Banco Holandés Unido
@@ -964,14 +964,14 @@
     Construction company.
   </li>
   <li>
-    <a href="#project-Agencia_Banco_Holandes_Bvar" class="js-project-finder">
+    <a href="#" data-project-prefix="Agencia_Banco_Holandes_Bvar" class="js-project">
       1976 - Banco Holandés Branch
     </a>,
     on España Bvar. and Roque Graseras Street, Montevideo - García Otero Butler
     y Zaffaroni S.A. Construction company.
   </li>
   <li>
-    <a href="#project-Del_Barco" class="js-project-finder">
+    <a href="#" data-project-prefix="Del_Barco" class="js-project">
       1976 -
       <em>
         Del Barco
@@ -981,7 +981,7 @@
     - Ciapessoni Falco Construction company.
   </li>
   <li>
-    <a href="#project-Agencia_Banco_Holandes_Pblo_Maria" class="js-project-finder">
+    <a href="#" data-project-prefix="Agencia_Banco_Holandes_Pblo_Maria" class="js-project">
       1979 - Banco Holandés Unido Branch
     </a>,
     on Pablo de María and 18 de Julio Streets - García Otero Butler y Zaffaroni
@@ -1018,14 +1018,14 @@
   </strong>
   in the renovation of an old building from early 20th century to build offices
   and shops in the corner of
-  <a href="#project-Avda_Callao_Arenales" class="js-project-finder">
+  <a href="#" data-project-prefix="Avda_Callao_Arenales" class="js-project">
     Callao Ave. and Arenales Street
   </a>, He also takes on some minor tasks in the branches of Banco Holandés of
   Buenos Aires aiming to enhance and update its functionality.
 </p>
 <ol class="ordered-list-continue">
   <li>
-    <a href="#project-Muebleria_Caviglia" class="js-project-finder">
+    <a href="#" data-project-prefix="Muebleria_Caviglia" class="js-project">
       1983 - Renovation of the old furniture shop building
       <em>
         Caviglia
@@ -1038,13 +1038,13 @@
     operates here.
   </li>
   <li>
-    <a href="#project-Primer_Premio_Concurso_Propuestas_Innovacion" class="js-project-finder">
+    <a href="#" data-project-prefix="Primer_Premio_Concurso_Propuestas_Innovacion" class="js-project">
       1985 - First Prize for best idea in &quot;Innovative proposals&quot; contest
     </a> for &quot;La Casa de la Exportación&quot;, with the assistance of Mr.
     Luis Cano (B.A.) and Mr. José Luis Rubio.
   </li>
   <li>
-    <a href="#project-Propuesta_Similar_Cnia_Gas" class="js-project-finder">
+    <a href="#" data-project-prefix="Propuesta_Similar_Cnia_Gas" class="js-project">
       1986 - A similar proposal is finally submitted for
       <em>
         La Carbonera's
@@ -1068,12 +1068,12 @@
 </p>
 <ol class="ordered-list-continue">
   <li>
-    <a href="#project-Rcia_Scasso" class="js-project-finder">
+    <a href="#" data-project-prefix="Rcia_Scasso" class="js-project">
       1990 - Residential House on Scasso Street
     </a>, Punta Gorda - Montevideo - CUOPSA Construction company.
   </li>
   <li>
-    <a href="#project-La_Villete" class="js-project-finder">
+    <a href="#" data-project-prefix="La_Villete" class="js-project">
       1993 -
       <em>
         La  Villette
@@ -1084,7 +1084,7 @@
     company.
   </li>
   <li>
-    <a href="#project-Ocean_Drive" class="js-project-finder">
+    <a href="#" data-project-prefix="Ocean_Drive" class="js-project">
       1995 -
       <em>
         Ocean Drive
@@ -1101,7 +1101,7 @@
 </p>
 <ol class="ordered-list-continue">
   <li>
-    <a href="#project-Palmas_del_Golf" class="js-project-finder">
+    <a href="#" data-project-prefix="Palmas_del_Golf" class="js-project">
       1995 -
       <em>
         Palmas del Golf
@@ -1111,7 +1111,7 @@
     Julio María Sosa, Punta Carretas - Montevideo.
   </li>
   <li>
-    <a href="#project-Punta_Brava" class="js-project-finder">
+    <a href="#" data-project-prefix="Punta_Brava" class="js-project">
       1997 -
       <em>
         Faro de Punta Brava
@@ -1129,7 +1129,7 @@
 <ol>
   <li>
     Contest
-    <a href="#project-Antep_Concurso_Edif_Notarial" class="js-project-finder">
+    <a href="#" data-project-prefix="Antep_Concurso_Edif_Notarial" class="js-project">
       <em>
         Caja Notarial
       </em>
@@ -1139,13 +1139,13 @@
   </li>
   <li>
     Contest
-    <a href="#project-Antep_Concurso_BHU" class="js-project-finder">
+    <a href="#" data-project-prefix="Antep_Concurso_BHU" class="js-project">
       Banco Hipotecario
     </a>
     - Montevideo.
   </li>
   <li>
-    <a href="#project-Antep_Resid_Tiferes" class="js-project-finder">
+    <a href="#" data-project-prefix="Antep_Resid_Tiferes" class="js-project">
       Residential House
       <em>
         Tiferes
@@ -1154,7 +1154,7 @@
     - Punta del Este.
   </li>
   <li>
-    <a href="#project-Antep_Edif_El_Ombu" class="js-project-finder">
+    <a href="#" data-project-prefix="Antep_Edif_El_Ombu" class="js-project">
       <em>
         El Ombú
       </em>
@@ -1163,7 +1163,7 @@
     - Montevideo.
   </li>
   <li>
-    <a href="#project-Antep_Edif_El_Emir" class="js-project-finder">
+    <a href="#" data-project-prefix="Antep_Edif_El_Emir" class="js-project">
       <em>
         El Emir
       </em>
@@ -1172,12 +1172,12 @@
     - Punta del Este.
   </li>
   <li>
-    <a href="#project-Antep_Resid_Punta_Del_Este" class="js-project-finder">
+    <a href="#" data-project-prefix="Antep_Resid_Punta_Del_Este" class="js-project">
       Residential House - Punta del Este
     </a>.
   </li>
   <li>
-    <a href="#project-Torre_Continua_Tiphaine" class="js-project-finder">
+    <a href="#" data-project-prefix="Torre_Continua_Tiphaine" class="js-project">
       <em>
         Tiphaine
       </em>
@@ -1186,13 +1186,13 @@
     Libertador Ave., Buenos Aires, Argentina.
   </li>
   <li>
-    <a href="#project-Complejo_Turistico_La_Paloma" class="js-project-finder">
+    <a href="#" data-project-prefix="Complejo_Turistico_La_Paloma" class="js-project">
       Holiday resort in La Paloma
     </a>
     - Rocha, Uruguay.
   </li>
   <li>
-    <a href="#project-Concurso_Terminal_Buenos_Aires" class="js-project-finder">
+    <a href="#" data-project-prefix="Concurso_Terminal_Buenos_Aires" class="js-project">
       Contest for the Buenos Aires Bus Station, 1st Prize
     </a>,
     together with architects Mario Payseé Reyes, Perla Estable, Alberto Meijide
@@ -1207,7 +1207,7 @@
 </p>
 <ol>
   <li>
-    <a href="#project-Proy_Urban_Anteproyecto_Fermin_Ferreira" class="js-project-finder">
+    <a href="#" data-project-prefix="Proy_Urban_Anteproyecto_Fermin_Ferreira" class="js-project">
       <em>
         Fermín Ferreira
       </em>
@@ -1216,7 +1216,7 @@
     - Luis A. de Herrera Ave. and 26 de Marzo Street. - Montevideo.
   </li>
   <li>
-    <a href="#project-Proy_Urban_Proyecto_Lobos" class="js-project-finder">
+    <a href="#" data-project-prefix="Proy_Urban_Proyecto_Lobos" class="js-project">
       <em>
         Lobos
       </em>
@@ -1226,7 +1226,7 @@
     the assistance of Architect Arturo Villamil.
   </li>
   <li> Collaboration in Project
-    <a href="#project-Proy_Urban_Vilazar_Del_Mar" class="js-project-finder">
+    <a href="#" data-project-prefix="Proy_Urban_Vilazar_Del_Mar" class="js-project">
       <em>
         Vilazar del Mar Satellite City
       </em>

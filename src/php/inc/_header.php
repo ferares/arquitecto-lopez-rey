@@ -17,6 +17,11 @@
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link <?php if ($uri === 'projects') echo 'active'; ?>" <?php if ($uri === 'projects') echo 'aria-current="page"'; ?> href="/projects?lang=<?php echo $lang ?>">
+              <?php echo TRANSLATIONS['link_projects'] ?>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link <?php if ($uri === 'personal') echo 'active'; ?>" <?php if ($uri === 'personal') echo 'aria-current="page"'; ?> href="/personal?lang=<?php echo $lang ?>">
               <?php echo TRANSLATIONS['link_personal'] ?>
             </a>

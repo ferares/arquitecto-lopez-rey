@@ -68,7 +68,7 @@
   </strong>,
   autor del puente colgante sobre el arroyo Maldonado de Punta del Este, para
   desarrollar el anteproyecto del
-  <a href="#project-Edificio_Centenario" class="js-project-finder">
+  <a href="#" data-project-prefix="Edificio_Centenario" class="js-project">
     Edificio Centenario
   </a>
   ubicado en Avda. Centenario casi Avda. 8 de Octubre en la ciudad de
@@ -93,49 +93,49 @@
 </p>
 <ol class="ordered-list-start">
   <li>
-    <a href="#project-Puerto" class="js-project-finder">
+    <a href="#" data-project-prefix="Puerto" class="js-project">
       1959 - Edificio Puerto
     </a>
     - Punta del Este - Construye Clerc y Guerra.
   </li>
   <li>
-    <a href="#project-Corrientes" class="js-project-finder">
+    <a href="#" data-project-prefix="Corrientes" class="js-project">
       1960 - Edificio Corrientes
     </a>
     - Montevideo.
   </li>
   <li>
-    <a href="#project-Residencia_Pepe_Suarez" class="js-project-finder">
+    <a href="#" data-project-prefix="Residencia_Pepe_Suarez" class="js-project">
       1961 - Residencia Pepe Suárez
     </a>
     - Punta del Este - Construye Clerc y Guerra.
   </li>
   <li>
-    <a href="#project-Socaire" class="js-project-finder">
+    <a href="#" data-project-prefix="Socaire" class="js-project">
       1961 - Residencia Socaire
     </a>
     - Punta del Este - Construye Clerc y Guerra.
   </li>
   <li>
-    <a href="#project-Taller_Scalone" class="js-project-finder">
+    <a href="#" data-project-prefix="Taller_Scalone" class="js-project">
       1962 - Taller Scalone
     </a>
     - Punta del Este - Construye Clerc y Guerra.
   </li>
   <li>
-    <a href="#project-Rcia_Son_Pura" class="js-project-finder">
+    <a href="#" data-project-prefix="Rcia_Son_Pura" class="js-project">
       1962 - Residencia Son Pura
     </a>
     - Punta del Este - Construye Clerc y Guerra.
   </li>
   <li>
-    <a href="#project-Residencia_Lopez_Rey" class="js-project-finder">
+    <a href="#" data-project-prefix="Residencia_Lopez_Rey" class="js-project">
       1962 - Residencia López Rey &ldquo;Ahel&rdquo;
     </a>
     - Punta del Este - Construye Clerc y Guerra.
   </li>
   <li>
-    <a href="#project-Finisterre" class="js-project-finder">
+    <a href="#" data-project-prefix="Finisterre" class="js-project">
       1963 - Edificio Finisterre
     </a>
     - Rbla. República del Perú y Bvar. España, Montevideo - Construye
@@ -156,32 +156,32 @@
 </p>
 <ol>
   <li>
-    <a class="js-letter-finder" href="images/cartas/gonzalezAlmeida.jpg">
+    <a href="/imgs/cartas/gonzalezAlmeida.jpg" target="_blank" data-bs-toggle="modal" data-bs-target="#letters-modal" data-index="0">
       Arq. Ramón González Almeida
     </a>
   </li>
   <li>
-    <a class="js-letter-finder" href="images/cartas/sichero.jpg">
+    <a href="/imgs/cartas/sichero.jpg" target="_blank" data-bs-toggle="modal" data-bs-target="#letters-modal" data-index="1">
       Arq. Raúl Sichero
     </a>
   </li>
   <li>
-    <a class="js-letter-finder" href="images/cartas/garciaPardo.jpg">
+    <a href="/imgs/cartas/garciaPardo.jpg" target="_blank" data-bs-toggle="modal" data-bs-target="#letters-modal" data-index="2">
       Arq. Luis García Pardo
     </a>
   </li>
   <li>
-    <a class="js-letter-finder" href="images/cartas/viera.jpg">
+    <a href="/imgs/cartas/viera.jpg" target="_blank" data-bs-toggle="modal" data-bs-target="#letters-modal" data-index="3">
       Leonel Viera
     </a>
   </li>
   <li>
-    <a class="js-letter-finder" href="images/cartas/munozdelCampo.jpg">
+    <a href="/imgs/cartas/munozdelCampo.jpg" target="_blank" data-bs-toggle="modal" data-bs-target="#letters-modal" data-index="4">
       Arq. Don Alberto Muñóz del Campo
     </a>
   </li>
   <li>
-    <a class="js-letter-finder" href="images/cartas/ricardoSaxlund.jpg">
+    <a href="/imgs/cartas/ricardoSaxlund.jpg" target="_blank" data-bs-toggle="modal" data-bs-target="#letters-modal" data-index="5">
       Arq. Ricardo Saxlund
     </a>
   </li>
@@ -210,7 +210,7 @@
   con estructura metálica que se producen en una planta de armado de
   automóviles para luego montarlas en diversos lugares de la península
   italiana. En esta etapa se desarrollan las
-  <a href="#project-Fantasias_Italianas" class="js-project-finder">
+  <a href="#" data-project-prefix="Fantasias_Italianas" class="js-project">
     fantasías italianas
   </a>
   .
@@ -263,38 +263,38 @@
 </p>
 <ol class="ordered-list-continue">
   <li>
-    <a href="#project-Rcia_Poyo_Roc" class="js-project-finder">
+    <a href="#" data-project-prefix="Rcia_Poyo_Roc" class="js-project">
       1964 - Residencia Poyo Roc
     </a>
     - Punta del Este - Construyó Clerc y Guerra.
   </li>
   <li>
-    <a href="#project-Continental" class="js-project-finder">
+    <a href="#" data-project-prefix="Continental" class="js-project">
       1965 - Edificio Continental
     </a>
     - Punta del Este.
   </li>
   <li>
-    <a href="#project-San_Michelle" class="js-project-finder">
+    <a href="#" data-project-prefix="San_Michelle" class="js-project">
       1966 - Edificio San Michelle
     </a>
     - Ellauri y Masini - Montevideo - Construyó García Otero Butler y
     Zaffaroni S.A.
   </li>
   <li>
-    <a href="#project-Tres_Marias" class="js-project-finder">
+    <a href="#" data-project-prefix="Tres_Marias" class="js-project">
       1966 - Residencia Las Tres Marías
     </a>
     - Punta del Este - Construyó Ciapessoni Falco.
   </li>
   <li>
-    <a href="#project-El_Fortin" class="js-project-finder">
+    <a href="#" data-project-prefix="El_Fortin" class="js-project">
       1966 - Edificio El Fortín
     </a>
     - Punta del Este - Construyó Elbio Barabino.
   </li>
   <li>
-    <a href="#project-La_Caldera" class="js-project-finder">
+    <a href="#" data-project-prefix="La_Caldera" class="js-project">
       1966 - Residencia La Caldera
     </a>
     - Punta del Este - Construyó Ciapessoni Falco, fotografía Julius
@@ -308,7 +308,7 @@
     1966 - Residencia Lagorio - Punta del Este.
   </li>
   <li>
-    <a href="#project-Alianza_Francesa" class="js-project-finder">
+    <a href="#" data-project-prefix="Alianza_Francesa" class="js-project">
       1967 - Edificio de la Alliance Francaise
     </a>
     - Calle Soriano, Montevideo - Construye García Otero Butler y
@@ -319,7 +319,7 @@
     Construye Puzynin.
   </li>
   <li>
-    <a href="#project-Berna" class="js-project-finder">
+    <a href="#" data-project-prefix="Berna" class="js-project">
       1969 - Edificio Berna
     </a>
     - Avda. Ellauri y Francisco Aguilar, Montevideo - Construye García
@@ -330,63 +330,63 @@
     terminal de ómnibus, plaza de comercios y cine - La Paloma, Rocha.
   </li>
   <li>
-    <a href="#project-Casa_El_Monarca" class="js-project-finder">
+    <a href="#" data-project-prefix="Casa_El_Monarca" class="js-project">
       1972 - Residencia El Monarca
     </a>
     - Punta del Este - Construye Ciapessoni Falco.
   </li>
   <li>
-    <a href="#project-Paz_Marina" class="js-project-finder">
+    <a href="#" data-project-prefix="Paz_Marina" class="js-project">
       1972 - Edificio Paz Marina
     </a>
     - Punta del Este - SAFEMA - Construye García Otero Butler y
     Zaffaroni S.A.
   </li>
   <li>
-    <a href="#project-Yacht" class="js-project-finder">
+    <a href="#" data-project-prefix="Yacht" class="js-project">
       1972 - Edificio Yacht
     </a>
     - Punta del Este - Construye Ciapessoni Falco.
   </li>
   <li>
-    <a href="#project-El_Remanso" class="js-project-finder">
+    <a href="#" data-project-prefix="El_Remanso" class="js-project">
       1972 - Edificio El Remanso
     </a>
     - Punta del Este - SAFEMA - Construye Elbio Barabino.
   </li>
   <li>
-    <a href="#project-Coop_Vivienda" class="js-project-finder">
+    <a href="#" data-project-prefix="Coop_Vivienda" class="js-project">
       1973 - Cooperativa de viviendas José Pedro Varela
     </a>
     , calle Concepción del Uruguay - Montevideo - Construye García Otero,
     Butler y Zaffaroni S.A.
   </li>
   <li>
-    <a href="#project-Residencia_Saulieu" class="js-project-finder">
+    <a href="#" data-project-prefix="Residencia_Saulieu" class="js-project">
       1973 - Residencia Saulieu
     </a>
     - Punta del Este - Construye Ciapessoni Falco.
   </li>
   <li>
-    <a href="#project-Ampliacion_Banco_Holandes_Unido" class="js-project-finder">
+    <a href="#" data-project-prefix="Ampliacion_Banco_Holandes_Unido" class="js-project">
       1974 - Ampliación del Banco Holandés Unido
     </a>
     25 de Mayo y Treinta y Tres - Montevideo - Construye Carcavallo.
   </li>
   <li>
-    <a href="#project-Residencia_Goldfarb" class="js-project-finder">
+    <a href="#" data-project-prefix="Residencia_Goldfarb" class="js-project">
       1974 - Residencia Goldfarb
     </a>
     - Marco Bruto y Antonio Costa - Montevideo.
   </li>
   <li>
-    <a href="#project-Rcia_Taranto" class="js-project-finder">
+    <a href="#" data-project-prefix="Rcia_Taranto" class="js-project">
       1978 - Residencia Taranto
     </a>
     - Montevideo - Construye Stiler.
   </li>
   <li>
-    <a href="#project-Hogar_Espanol" class="js-project-finder">
+    <a href="#" data-project-prefix="Hogar_Espanol" class="js-project">
       1978 - Hogar Español de Ancianos
     </a>
     , Avda. Instrucciones - Prado, Montevideo - Construye Stiler.
@@ -395,7 +395,7 @@
     1979 - Residencia Espalter - Punta del Este.
   </li>
   <li>
-    <a href="#project-Residencia_Lecueder" class="js-project-finder">
+    <a href="#" data-project-prefix="Residencia_Lecueder" class="js-project">
       1979 - Residencia Lecueder
     </a>
     - Montevideo - Construye Arq. José M. Sorrondegui.
@@ -505,37 +505,37 @@
 </p>
 <ol class="ordered-list-continue">
   <li>
-    <a href="#project-Virazon" class="js-project-finder">
+    <a href="#" data-project-prefix="Virazon" class="js-project">
       1974 - Edificio Virazón
     </a>
     - Construye García Otero Butler y Zaffaroni S.A.
   </li>
   <li>
-    <a href="#project-Arrecifes" class="js-project-finder">
+    <a href="#" data-project-prefix="Arrecifes" class="js-project">
       1974 - Edificio Arrecifes
     </a>
     - Construye Ciapessoni Falco.
   </li>
   <li>
-    <a href="#project-Vendaval" class="js-project-finder">
+    <a href="#" data-project-prefix="Vendaval" class="js-project">
       1974 - Edificio Vendaval
     </a>
     - Construye Finocchieti.
   </li>
   <li>
-    <a href="#project-Costa_Azul" class="js-project-finder">
+    <a href="#" data-project-prefix="Costa_Azul" class="js-project">
       1975 - Edificio Costa Azul
     </a>
     - Construye García Otero Butler y Zaffaroni S.A.
   </li>
   <li>
-    <a href="#project-Varadero" class="js-project-finder">
+    <a href="#" data-project-prefix="Varadero" class="js-project">
       1975 - Edificio Varadero
     </a>
     - Construye Ciapessoni Falco.
   </li>
   <li>
-    <a href="#project-Lobos" class="js-project-finder">
+    <a href="#" data-project-prefix="Lobos" class="js-project">
       1975 - Edificio Lobos
     </a>
     - Construye Ciapessoni Falco.
@@ -553,63 +553,63 @@
 </p>
 <ol class="ordered-list-continue">
   <li>
-    <a href="#project-Malecon_I_II_III" class="js-project-finder">
+    <a href="#" data-project-prefix="Malecon_I_II_III" class="js-project">
       1975 - 1980 - Conjunto de los 4 Edificios Malecón, Malecón I
     </a>
     - Construye Ciapessoni Falco,
-    <a href="#project-Malecon_I_II_III" class="js-project-finder">
+    <a href="#" data-project-prefix="Malecon_I_II_III" class="js-project">
       Malecón II, Malecón III
     </a>
     - Construye García Otero Butler y Zaffaroni S.A., y
-    <a href="#project-Malecon_IV" class="js-project-finder">
+    <a href="#" data-project-prefix="Malecon_IV" class="js-project">
       Malecón IV
     </a>
     - Construye CUOPSA.
   </li>
   <li>
-    <a href="#project-La_Caleta" class="js-project-finder">
+    <a href="#" data-project-prefix="La_Caleta" class="js-project">
       1977 - Edificio La Caleta
     </a>
     - Construye Norte.
   </li>
   <li>
-    <a href="#project-Recalada" class="js-project-finder">
+    <a href="#" data-project-prefix="Recalada" class="js-project">
       1977 - Recalada
     </a>
     - Construye Ciapessoni Falco.
   </li>
   <li>
-    <a href="#project-El_Monarca" class="js-project-finder">
+    <a href="#" data-project-prefix="El_Monarca" class="js-project">
       1978 - Edificio El Monarca
     </a>
     - Construye García Otero Butler y Zaffaroni S.A.
   </li>
   <li>
-    <a href="#project-Torres_Plata" class="js-project-finder">
+    <a href="#" data-project-prefix="Torres_Plata" class="js-project">
       1978 - 1980 - Conjunto Torres del Plata, Torre I, Torre II, Torre III
     </a>
     - Construye Norte.
   </li>
   <li>
-    <a href="#project-Puerto_del_Sol" class="js-project-finder">
+    <a href="#" data-project-prefix="Puerto_del_Sol" class="js-project">
       1979 - 1985 - Puerto del Sol
     </a>
     - Edificios
-    <a href="#project-Galeon" class="js-project-finder">
+    <a href="#" data-project-prefix="Galeon" class="js-project">
       Galeón
     </a>
     ,
-    <a href="#project-Goleta" class="js-project-finder">
+    <a href="#" data-project-prefix="Goleta" class="js-project">
       Goleta
     </a>
     - Construye Ing. Mario Arrambide, y
-    <a href="#project-Fragata" class="js-project-finder">
+    <a href="#" data-project-prefix="Fragata" class="js-project">
       Fragata
     </a>
     - Construye CUOPSA.
   </li>
   <li>
-    <a href="#project-Torre_Gattas" class="js-project-finder">
+    <a href="#" data-project-prefix="Torre_Gattas" class="js-project">
       1980 - Torre Gattas
     </a>
     - Construye Carcavallo.
@@ -622,13 +622,13 @@
 </p>
 <ol class="ordered-list-continue">
   <li>
-    <a href="#project-Del_Puerto" class="js-project-finder">
+    <a href="#" data-project-prefix="Del_Puerto" class="js-project">
       1979 - Edificio Del Puerto
     </a>
     - Construye Ciapessoni Falco.
   </li>
   <li>
-    <a href="#project-MEC" class="js-project-finder">
+    <a href="#" data-project-prefix="MEC" class="js-project">
       1979 - Ministerio de Cultura (Edificio De La Reconquista)
     </a>
     - Construye Ciapessoni Falco.
@@ -637,25 +637,25 @@
     1979 - Edificio Del Varadero - Construye Ciapessoni Falco.
   </li>
   <li>
-    <a href="#project-Terrazas_Carrasco" class="js-project-finder">
+    <a href="#" data-project-prefix="Terrazas_Carrasco" class="js-project">
       1979 - Edificio Terrazas de Carrasco
     </a>
     - Construye Maranges.
   </li>
   <li>
-    <a href="#project-Presidente" class="js-project-finder">
+    <a href="#" data-project-prefix="Presidente" class="js-project">
       1980 - Edificio Presidente
     </a>
     - Construye Maranges.
   </li>
   <li>
-    <a href="#project-Regidor" class="js-project-finder">
+    <a href="#" data-project-prefix="Regidor" class="js-project">
       1983 - Edificio de oficinas Regidor
     </a>
     - Construye CUOPSA.
   </li>
   <li>
-    <a href="#project-Mdeo_Shopping" class="js-project-finder">
+    <a href="#" data-project-prefix="Mdeo_Shopping" class="js-project">
       1984 - Montevideo Shopping Center
     </a>
     - Construye Ing. Dieste y Montañes.
@@ -677,27 +677,27 @@
 </p>
 <ol class="ordered-list-continue">
   <li>
-    <a href="#project-Agencia_Banco_Holandes_Unido" class="js-project-finder">
+    <a href="#" data-project-prefix="Agencia_Banco_Holandes_Unido" class="js-project">
       1973 - Agencia del Banco Holandés Unido
     </a>
     18 de Julio y Yaguarón, Montevideo - Construye García Otero Butler y
     Zaffaroni S.A.
   </li>
   <li>
-    <a href="#project-Agencia_Banco_Holandes_Bvar" class="js-project-finder">
+    <a href="#" data-project-prefix="Agencia_Banco_Holandes_Bvar" class="js-project">
       1976 - Agencia del Banco Holandés
     </a>
     en Bvar. España y Roque Graseras, Montevideo - Construye García
     Otero Butler y Zaffaroni S.A.
   </li>
   <li>
-    <a href="#project-Del_Barco" class="js-project-finder">
+    <a href="#" data-project-prefix="Del_Barco" class="js-project">
       1976 - Edificio del Barco
     </a>
     - Montevideo - Construye Ciapessoni Falco.
   </li>
   <li>
-    <a href="#project-Agencia_Banco_Holandes_Pblo_Maria" class="js-project-finder">
+    <a href="#" data-project-prefix="Agencia_Banco_Holandes_Pblo_Maria" class="js-project">
       1979 - Agencia del Banco Holandés
     </a>
     Pablo de María y Avda. 18 de Julio, Montevideo - Construye García
@@ -715,7 +715,7 @@
 <p>
   Mientras tanto, colabora independientemente en la Ciudad de Buenos Aires
   con el Arq. David Fuks en el reciclaje de la esquina de la
-  <a href="#project-Avda_Callao_Arenales" class="js-project-finder">
+  <a href="#" data-project-prefix="Avda_Callao_Arenales" class="js-project">
     Avda. Callao y Arenales
   </a>
   para transformarla en oficinas y locales comerciales, recuperando
@@ -726,7 +726,7 @@
 </p>
 <ol class="ordered-list-continue">
   <li>
-    <a href="#project-Muebleria_Caviglia" class="js-project-finder">
+    <a href="#" data-project-prefix="Muebleria_Caviglia" class="js-project">
       1983 - Reciclaje del Edificio de la antigua Mueblería Caviglia
     </a>
     para Casa Bancaria River Trade con la colaboración del bachiller Luis
@@ -736,7 +736,7 @@
     Chile.
   </li>
   <li>
-    <a href="#project-Primer_Premio_Concurso_Propuestas_Innovacion" class="js-project-finder">
+    <a href="#" data-project-prefix="Primer_Premio_Concurso_Propuestas_Innovacion" class="js-project">
       1985 - Primer Premio del concurso para la mejor idea de "Propuestas
       para Innovación"
     </a>
@@ -744,7 +744,7 @@
     Luis Cano y del Sr. José Luis Rubio.
   </li>
   <li>
-    <a href="#project-Propuesta_Similar_Cnia_Gas" class="js-project-finder">
+    <a href="#" data-project-prefix="Propuesta_Similar_Cnia_Gas" class="js-project">
       1986 - Propuesta similar que finalmente se presenta para el predio de
       la Carbonera de la Compañía del Gas
     </a>
@@ -759,19 +759,19 @@
 </p>
 <ol class="ordered-list-continue">
   <li>
-    <a href="#project-Rcia_Scasso" class="js-project-finder">
+    <a href="#" data-project-prefix="Rcia_Scasso" class="js-project">
       1990 - Residencia en la Calle Scasso
     </a>
     - Punta Gorda, Montevideo - Construye CUOPSA.
   </li>
   <li>
-    <a href="#project-La_Villete" class="js-project-finder">
+    <a href="#" data-project-prefix="La_Villete" class="js-project">
       1993 - Edificio La Villette
     </a>
     - Chucarro y Masini, Pocitos, Montevideo - Construye Padua.
   </li>
   <li>
-    <a href="#project-Ocean_Drive" class="js-project-finder">
+    <a href="#" data-project-prefix="Ocean_Drive" class="js-project">
       1995 - Edificio Ocean Drive
     </a>
     - Ellauri y Montero, Pocitos, Montevideo - Construye Padua.
@@ -783,13 +783,13 @@
 </p>
 <ol class="ordered-list-continue">
   <li>
-    <a href="#project-Palmas_del_Golf" class="js-project-finder">
+    <a href="#" data-project-prefix="Palmas_del_Golf" class="js-project">
       1995 - Edificio Palmas del Golf
     </a>
     , Julio María Sosa, Punta Carretas, Montevideo.
   </li>
   <li>
-    <a href="#project-Punta_Brava" class="js-project-finder">
+    <a href="#" data-project-prefix="Punta_Brava" class="js-project">
       1997 - Edificio Faro de Punta Brava
     </a>
     , Rambla Gandhi, Punta Carretas, Montevideo.
@@ -802,54 +802,54 @@
 </p>
 <ol>
   <li>
-    <a href="#project-Antep_Concurso_Edif_Notarial" class="js-project-finder">
+    <a href="#" data-project-prefix="Antep_Concurso_Edif_Notarial" class="js-project">
       Concurso Edificio Caja Notarial
     </a>
     - Montevideo.
   </li>
   <li>
-    <a href="#project-Antep_Concurso_BHU" class="js-project-finder">
+    <a href="#" data-project-prefix="Antep_Concurso_BHU" class="js-project">
       Concurso Banco Hipotecario
     </a>
     - Montevideo.
   </li>
   <li>
-    <a href="#project-Antep_Resid_Tiferes" class="js-project-finder">
+    <a href="#" data-project-prefix="Antep_Resid_Tiferes" class="js-project">
       Residencia Tiferes
     </a>
     - Punta del Este.
   </li>
   <li>
-    <a href="#project-Antep_Edif_El_Ombu" class="js-project-finder">
+    <a href="#" data-project-prefix="Antep_Edif_El_Ombu" class="js-project">
       Edificio El Ombú
     </a>
     - Montevideo.
   </li>
   <li>
-    <a href="#project-Antep_Edif_El_Emir" class="js-project-finder">
+    <a href="#" data-project-prefix="Antep_Edif_El_Emir" class="js-project">
       Edificio El Emir
     </a>
     - Punta del Este.
   </li>
   <li>
-    <a href="#project-Antep_Resid_Punta_Del_Este" class="js-project-finder">
+    <a href="#" data-project-prefix="Antep_Resid_Punta_Del_Este" class="js-project">
       Residencia en Punta del Este
     </a>.
   </li>
   <li>
-    <a href="#project-Torre_Continua_Tiphaine" class="js-project-finder">
+    <a href="#" data-project-prefix="Torre_Continua_Tiphaine" class="js-project">
       Torre continua Tiphaine
     </a>
     - Avda. Libertador y Salguero, Buenos Aires, Argentina.
   </li>
   <li>
-    <a href="#project-Complejo_Turistico_La_Paloma" class="js-project-finder">
+    <a href="#" data-project-prefix="Complejo_Turistico_La_Paloma" class="js-project">
       Complejo turístico en La Paloma
     </a>
     - Rocha, Uruguay.
   </li>
   <li>
-    <a href="#project-Concurso_Terminal_Buenos_Aires" class="js-project-finder">
+    <a href="#" data-project-prefix="Concurso_Terminal_Buenos_Aires" class="js-project">
       Concurso Terminal de Ómnibus de Buenos Aires
     </a>
     , 1º Premio, conjuntamente con los Arquitectos Mario Payseé Reyes,
@@ -864,13 +864,13 @@
 </p>
 <ol>
   <li>
-    <a href="#project-Proy_Urban_Anteproyecto_Fermin_Ferreira" class="js-project-finder">
+    <a href="#" data-project-prefix="Proy_Urban_Anteproyecto_Fermin_Ferreira" class="js-project">
       Anteproyecto Fermín Ferreira
     </a>
     - Avda. Luis A. de Herrera y 26 de marzo, Montevideo.
   </li>
   <li>
-    <a href="#project-Proy_Urban_Proyecto_Lobos" class="js-project-finder">
+    <a href="#" data-project-prefix="Proy_Urban_Proyecto_Lobos" class="js-project">
       Proyecto Lobos
     </a>
     - Importante proyecto en Avda Roosevelt y Playa Brava de Punta del Este
@@ -878,7 +878,7 @@
   </li>
   <li>
     Colaboración en el Proyecto de
-    <a href="#project-Proy_Urban_Vilazar_Del_Mar" class="js-project-finder">
+    <a href="#" data-project-prefix="Proy_Urban_Vilazar_Del_Mar" class="js-project">
       Ciudad Satélite Vilazar del Mar
     </a>
     en Punta de Yeguas, Montevideo, del estudio del Arq. Raúl Sichero

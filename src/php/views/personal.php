@@ -24,7 +24,7 @@ foreach ($pictures as $i => $picture) {
       <div class="col-8 offset-2 offset-sm-0 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
         <a class="card shadow-sm h-100 js-personal-photo text-decoration-none text-reset" href="#" data-personal-index="<?php echo $index ?>">
           <?php $index++; if ($index < 10) { $index = "0$index"; } ?>
-          <div class="card-img-top personal__photo" style="background-image: url(<?php echoImgPath($photo['small']) ?>)">
+          <div class="card-img-top card-photo" style="background-image: url(<?php echoImgPath($photo['small']) ?>)">
           </div>
           <div class="card-body d-flex align-items-end text-center">
             <h3 id="personal-title-<?php echo $index ?>" class="card-title h6 mx-auto">
@@ -48,11 +48,11 @@ foreach ($pictures as $i => $picture) {
         </button>
       </div>
       <div class="modal-body">
-        <div id="personal-modal-carousel" class="carousel slide js-personal-modal-carousel">
+        <div id="personal-modal-carousel" class="carousel slide js-personal-modal-carousel" data-bs-interval="false">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#personal-modal-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Foto 1"></button>
+            <button type="button" data-bs-target="#personal-modal-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="<?php echo TRANSLATIONS['photo'] ?> 1"></button>
             <?php for ($i = 1; $i < count($photos); $i++) : ?>
-              <button type="button" data-bs-target="#personal-modal-carousel" data-bs-slide-to="<?php echo $i ?>" aria-label="Foto <?php echo ($i + 1) ?>">
+              <button type="button" data-bs-target="#personal-modal-carousel" data-bs-slide-to="<?php echo $i ?>" aria-label="<?php echo TRANSLATIONS['photo'] ?> <?php echo ($i + 1) ?>">
               </button>
             <?php endfor; ?>
           </div>
