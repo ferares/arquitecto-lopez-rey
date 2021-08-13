@@ -8,7 +8,7 @@
     <?php foreach ($projects as $prefix => $project): ?>
       <div class="col-8 offset-2 offset-sm-0 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
         <a class="card shadow-sm h-100 text-decoration-none text-reset js-project" href="#" data-project-prefix="<?php echo $prefix ?>">
-          <div class="card-img-top card-photo" style="background-image: url(<?php echoImgPath('/gallery/'.$prefix.'_small_01.jpg') ?>)">
+          <div class="card-img-top card-photo" style="background-image: url(<?php echoImgPath('gallery/'.$prefix.'_small_01.jpg') ?>)">
           </div>
           <div class="card-body text-center">
             <h3 id="project-title-<?php echo $prefix ?>" class="card-title project__name h6">

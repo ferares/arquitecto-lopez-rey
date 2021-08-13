@@ -10,6 +10,7 @@ const gulp        = require('gulp');
 const log         = require('fancy-log');
 const noop        = require('gulp-noop');
 const reload      = browserSync.reload();
+const replace     = require('gulp-rev-replace');
 const rev         = require('gulp-rev');
 const sass        = require('gulp-sass');
 const sourcemaps  = require('gulp-sourcemaps');
