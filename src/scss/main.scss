@@ -1,4 +1,11 @@
 @import 'bootstrap';
 @import 'biography';
+@import 'footer';
 @import 'modal';
 @import 'cards';
+
+body {
+  min-height: 100vh;
+  padding-bottom: 72px;
+  position: relative;
+}
