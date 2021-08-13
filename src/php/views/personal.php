@@ -21,12 +21,13 @@ foreach ($pictures as $i => $picture) {
       </h2>
     </div>
     <?php foreach ($photos as $index => $photo): ?>
-      <div class="col-12 col-lg-6 col-xl-4 mb-4">
-        <a class="card h-100 js-personal-photo" href="#" data-personal-index="<?php echo $index ?>">
+      <div class="col-8 offset-2 offset-sm-0 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+        <a class="card shadow-sm h-100 js-personal-photo text-decoration-none text-reset" href="#" data-personal-index="<?php echo $index ?>">
           <?php $index++; if ($index < 10) { $index = "0$index"; } ?>
-          <img src="<?php echoImgPath($photo['small']) ?>" aria-labelledby="personal-title-<?php echo $index ?>" class="img-fluid card-img-top">
-          <div class="card-body d-flex align-items-end">
-            <h3 id="personal-title-<?php echo $index ?>" class="card-title">
+          <div class="card-img-top personal__photo" style="background-image: url(<?php echoImgPath($photo['small']) ?>)">
+          </div>
+          <div class="card-body d-flex align-items-end text-center">
+            <h3 id="personal-title-<?php echo $index ?>" class="card-title h6 mx-auto">
               <?php echo $photo['title'] ?>
             </h3>
           </div>

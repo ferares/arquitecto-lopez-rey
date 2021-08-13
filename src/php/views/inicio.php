@@ -2,16 +2,13 @@
   <div class="row">
     <div class="col-12">
     </div>
-    <div class="col-12 col-md-8">
+    <div class="col-12 col-md-6 col-xl-8 biography js-biography">
       <h2 class="display-2 text-center mb-4">
         <?php echo TRANSLATIONS['biography'] ?>
       </h2>
-      <div class="text-center">
-        <img src="<?php echoImgPath('biopic.jpg') ?>" class="img-fluid mb-4" alt="<?php echo TRANSLATIONS['bio_pic_alt'] ?>">
-      </div>
-      <?php require_once('./inc/'.TRANSLATIONS['bio']) ?>
+      <?php require_once('./inc/_bio.php') ?>
     </div>
-    <div class="col-12 col-md-4">
+    <div class="col-6 offset-3 col-md-4 offset-md-1 col-xl-2 offset-xl-1 projects js-projects">
       <h2 class="display-2 text-center mb-4">
         <?php echo TRANSLATIONS['projects'] ?>
       </h2>

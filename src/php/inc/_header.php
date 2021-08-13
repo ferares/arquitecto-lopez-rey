@@ -1,4 +1,4 @@
-<header class="mb-4">
+<header class="mb-4 js-header">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">

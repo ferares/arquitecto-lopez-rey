@@ -31,4 +31,8 @@ $(document).ready(function() {
   $('.js-modal-fullscreen').on('click', function() {
     $('.js-modal .modal-dialog').toggleClass('modal-fullscreen');
   });
+
+  var headerHeight = $('.js-header').outerHeight(true);
+  $('.js-biography').css('height', `calc(100vh - ${headerHeight}px)`);
+  $('.js-projects').css('height', `calc(100vh - ${headerHeight}px)`);
 });

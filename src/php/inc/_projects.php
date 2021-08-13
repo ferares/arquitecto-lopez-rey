@@ -1,10 +1,10 @@
-<ul class="projects list-unstyled">
+<ul class="projects-list list-unstyled">
   <?php foreach ($projects as $prefix => $project): ?>
     <li id="project-<?php echo $prefix ?>" class="project mb-4">
-      <a class="card js-project" href="#" data-project-prefix="<?php echo $prefix ?>" data-project-title="<?php echo "$project[name] ($project[location])" ?>">
-        <img src="<?php echoImgPath('/gallery/'.$prefix.'_big_01.jpg') ?>" aria-labelledby="project-title-<?php echo $prefix ?>" class="img-fluid card-img-top project__img">
-        <div class="card-body">
-          <h3 id="project-title-<?php echo $prefix ?>" class="card-title project__name">
+      <a class="card shadow-sm text-decoration-none text-reset js-project" href="#" data-project-prefix="<?php echo $prefix ?>" data-project-title="<?php echo "$project[name] ($project[location])" ?>">
+        <img src="<?php echoImgPath('/gallery/'.$prefix.'_small_01.jpg') ?>" aria-labelledby="project-title-<?php echo $prefix ?>" class="img-fluid card-img-top project__img">
+        <div class="card-body text-center">
+          <h3 id="project-title-<?php echo $prefix ?>" class="card-title project__name h6">
             <?php echo $project['name'] ?>
           </h3>
           <p class="card-text project__location">
