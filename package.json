@@ -20,7 +20,8 @@
   },
   "homepage": "https://bitbucket.org/aresuy/arquitecto-lopez-rey#readme",
   "dependencies": {
-    "bootstrap": "^5.0.2"
+    "bootstrap": "^5.1.0",
+    "jquery": "^3.6.0"
   },
   "devDependencies": {
     "browser-sync": "^2.27.1",

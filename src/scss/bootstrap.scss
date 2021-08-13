@@ -1,10 +1,11 @@
 /*!
- * Bootstrap v5.0.2 (https://getbootstrap.com/)
+ * Bootstrap v5.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+// scss-docs-start import-stack
 // Configuration
 @import '../../node_modules/bootstrap/scss/functions';
 @import '../../node_modules/bootstrap/scss/variables';
@@ -20,7 +21,7 @@
 @import '../../node_modules/bootstrap/scss/grid';
 // @import '../../node_modules/bootstrap/scss/tables';
 // @import '../../node_modules/bootstrap/scss/forms';
-// @import '../../node_modules/bootstrap/scss/buttons';
+@import '../../node_modules/bootstrap/scss/buttons';
 @import '../../node_modules/bootstrap/scss/transitions';
 // @import '../../node_modules/bootstrap/scss/dropdown';
 // @import '../../node_modules/bootstrap/scss/button-group';
@@ -34,17 +35,19 @@
 // @import '../../node_modules/bootstrap/scss/alert';
 // @import '../../node_modules/bootstrap/scss/progress';
 // @import '../../node_modules/bootstrap/scss/list-group';
-// @import '../../node_modules/bootstrap/scss/close';
+@import '../../node_modules/bootstrap/scss/close';
 // @import '../../node_modules/bootstrap/scss/toasts';
-// @import '../../node_modules/bootstrap/scss/modal';
+@import '../../node_modules/bootstrap/scss/modal';
 // @import '../../node_modules/bootstrap/scss/tooltip';
 // @import '../../node_modules/bootstrap/scss/popover';
-// @import '../../node_modules/bootstrap/scss/carousel';
+@import '../../node_modules/bootstrap/scss/carousel';
 // @import '../../node_modules/bootstrap/scss/spinners';
 // @import '../../node_modules/bootstrap/scss/offcanvas';
+// @import '../../node_modules/bootstrap/scss/placeholders';
 
 // Helpers
-// @import '../../node_modules/bootstrap/scss/helpers';
+@import '../../node_modules/bootstrap/scss/helpers';
 
 // Utilities
 @import '../../node_modules/bootstrap/scss/utilities/api';
+// scss-docs-end import-stack

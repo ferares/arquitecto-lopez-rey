@@ -1,0 +1,13 @@
+.modal__fullscreen--reduce {
+  display: none;
+}
+
+.modal-fullscreen {
+  .modal__fullscreen--reduce {
+    display: inline;
+  }
+
+  .modal__fullscreen--enlarge {
+    display: none;
+  }
+}
