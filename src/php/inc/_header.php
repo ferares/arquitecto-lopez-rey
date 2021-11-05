@@ -2,9 +2,9 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">
-        <h1 class="h5 mb-0">
+        <span class="h5 mb-0">
           <?php echo TRANSLATIONS['main_title'] ?>
-        </h1>
+        </span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-main" aria-controls="nav-main" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

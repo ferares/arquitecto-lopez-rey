@@ -11,4 +11,12 @@
   <script src="<?php echoJsPath('jquery.min.js') ?>"></script>
   <script src="<?php echoJsPath('bootstrap.min.js') ?>"></script>
   <script src="<?php echoJsPath('main.js') ?>"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NFN5QW7EJ5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-NFN5QW7EJ5');
+  </script>
 </head>

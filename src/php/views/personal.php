@@ -16,9 +16,9 @@ foreach ($pictures as $i => $picture) {
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <h2 class="display-2 text-center mb-4">
+      <h1 class="display-2 text-center mb-4">
         <?php echo TRANSLATIONS['personal_header'] ?>
-      </h2>
+      </h1>
     </div>
     <?php foreach ($photos as $index => $photo): ?>
       <div class="col-8 offset-2 offset-sm-0 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
@@ -27,9 +27,9 @@ foreach ($pictures as $i => $picture) {
           <div class="card-img-top card-photo" style="background-image: url(<?php echoImgPath($photo['small']) ?>)">
           </div>
           <div class="card-body d-flex align-items-end text-center">
-            <h3 id="personal-title-<?php echo $index ?>" class="card-title h6 mx-auto">
+            <h2 id="personal-title-<?php echo $index ?>" class="card-title h6 mx-auto">
               <?php echo $photo['title'] ?>
-            </h3>
+            </h2>
           </div>
         </a>
       </div>
@@ -58,18 +58,18 @@ foreach ($pictures as $i => $picture) {
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="<?php echoImgPath($photos[0]['big']) ?>" class="d-block w-100" alt="<?php echo $photos[0]['title'] ?> foto <?php echo 1 ?>">
+              <img src="<?php echoImgPath($photos[0]['big']) ?>" class="d-block w-100" aria-labelledby="item-label-0">
               <div class="carousel-caption d-none d-md-block">
-                <h5>
+                <h5 id="item-label-0">
                   <?php echo $photos[0]['title'] ?>
                 </h5>
               </div>
             </div>
             <?php for ($i = 1; $i < count($photos); $i++) : ?>
               <div class="carousel-item">
-                <img src="<?php echoImgPath($photos[$i]['big']) ?>" class="d-block w-100" alt="<?php echo $photos[$i]['title'] ?> foto <?php echo $i + 1 ?>">
+                <img src="<?php echoImgPath($photos[$i]['big']) ?>" class="d-block w-100" aria-labelledby="item-label-<?php echo $i ?>">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>
+                  <h5 id="item-label-<?php echo $i ?>">
                     <?php echo $photos[$i]['title'] ?>
                   </h5>
                 </div>

@@ -1,9 +1,9 @@
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <h2 class="display-2 text-center mb-4">
+      <h1 class="display-2 text-center mb-4">
         <?php echo TRANSLATIONS['projects'] ?>
-      </h2>
+      </h1>
     </div>
     <?php foreach ($projects as $prefix => $project): ?>
       <div class="col-8 offset-2 offset-sm-0 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
@@ -11,9 +11,9 @@
           <div class="card-img-top card-photo" style="background-image: url(<?php echoImgPath('gallery/'.$prefix.'_small_01.jpg') ?>)">
           </div>
           <div class="card-body text-center">
-            <h3 id="project-title-<?php echo $prefix ?>" class="card-title project__name h6">
+            <h2 id="project-title-<?php echo $prefix ?>" class="card-title project__name h6">
               <?php echo $project['name'] ?>
-            </h3>
+            </h2>
             <p class="card-text project__location">
               (<?php echo $project['location'] ?>)
             </p>

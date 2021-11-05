@@ -28,9 +28,15 @@ if ($uri === '/') {
 
   <body>
 
+    <a class="visually-hidden-focusable" href="#content">
+      <?php echo TRANSLATIONS['skip_to_content'] ?>
+    </a>
+
     <?php require_once('./inc/_header.php'); ?>
 
-    <?php require_once($url); ?>
+    <main id="content">
+      <?php require_once($url); ?>
+    </main>
 
     <?php require_once('./inc/_footer.php'); ?>
 
