@@ -29,7 +29,7 @@ if ($lang === 'en') {
     'letters' => 'Letters',
     'letter_from' => 'Letter from',
     'photo' => 'Photo',
-    'skip_to_content' => 'Ir al contenido',
+    'skip_to_content' => 'Skip to content',
   ));
 } else {
   define('TRANSLATIONS', array(
@@ -55,7 +55,7 @@ if ($lang === 'en') {
     'letters' => 'Cartas',
     'letter_from' => 'Carta del',
     'photo' => 'Foto',
-    'skip_to_content' => 'Skip to content',
+    'skip_to_content' => 'Ir al contenido',
   ));
 }
 
