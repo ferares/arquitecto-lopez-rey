@@ -8,6 +8,8 @@
   <link rel=canonical hreflang="es" href="<?php echo $currentUrl ?>?lang=es">
   <link rel=”alternate” hreflang="en" href="<?php echo $currentUrl ?>?lang=en">
   <link rel="stylesheet" href="<?php echoCssPath('main.css') ?>">
+  <link rel="author" href="https://ares.uy">
+  <meta name="author" content="Ares Software">
   <script src="<?php echoJsPath('jquery.min.js') ?>"></script>
   <script src="<?php echoJsPath('bootstrap.min.js') ?>"></script>
   <script src="<?php echoJsPath('main.js') ?>"></script>
