@@ -1,0 +1,134 @@
+---
+import "../styles/main.scss";
+import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js?url";
+
+import { locales, defaultLocale, type Locale } from "../i18n/config";
+import { useTranslations, getLocalizedUrl } from "../i18n/utils";
+
+const currentPath = Astro.url.pathname;
+const basePath = currentPath.replace(/^\/([\w-]+)/, "") || "/";
+const currentPage = basePath.replaceAll("/", "");
+const t = useTranslations(Astro.currentLocale as Locale);
+const year = new Date().getFullYear();
+---
+
+<!doctype html>
+<html lang={Astro.currentLocale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={t("desc")} />
+    <title>{t("main_title")}</title>
+    <link rel="author" href="https://ares.uy" />
+    <meta name="author" content="Ares Software" />
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgo=" />
+    <link rel="canonical" href={new URL(currentPath, Astro.site)} />
+    {
+      locales
+        .filter((locale) => locale !== Astro.currentLocale)
+        .map((locale) => (
+          <link
+            rel="alternate"
+            hreflang={locale}
+            href={new URL(`/${locale}${basePath}`, Astro.site)}
+          />
+        ))
+    }
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href={new URL(`/${defaultLocale}${basePath}`, Astro.site)}
+    />
+    <script is:inline src={bootstrap}></script>
+    <!-- GTM -->
+    <script
+      is:inline
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-NFN5QW7EJ5"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-NFN5QW7EJ5");
+    </script>
+    <script is:inline define:vars={{ currentLocale: Astro.currentLocale }}>
+      window.Astro = { currentLocale };
+    </script>
+    <script src="../scripts/main.ts"></script>
+  </head>
+  <body>
+    <header class="mb-4 js-header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand"
+            href={getLocalizedUrl("/", Astro.currentLocale)}
+            aria-current={currentPage === "" ? "page" : undefined}
+          >
+            <span class="h5 mb-0">
+              {t("main_title")}
+            </span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav-main"
+            aria-controls="nav-main"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="nav-main">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a
+                  class={`nav-link ${currentPage === "projects" ? "active" : undefined}`}
+                  aria-current={currentPage === "projects" ? "page" : undefined}
+                  href={getLocalizedUrl("projects", Astro.currentLocale)}
+                >
+                  {t("link_projects")}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class={`nav-link ${currentPage === "personal" ? "active" : undefined}`}
+                  aria-current={currentPage === "personal" ? "page" : undefined}
+                  href={getLocalizedUrl("personal", Astro.currentLocale)}
+                >
+                  {t("link_personal")}
+                </a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href={getLocalizedUrl(
+                    basePath,
+                    locales
+                      .filter((locale) => locale !== Astro.currentLocale)
+                      .pop(),
+                  )}
+                >
+                  {t("link_language")}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <slot />
+    <footer class="bg-dark text-light text-center p-4 footer">
+      <span>
+        &copy; {year}
+        {t("copyright")}
+      </span>
+    </footer>
+  </body>
+</html>

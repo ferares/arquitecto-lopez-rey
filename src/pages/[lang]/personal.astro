@@ -1,0 +1,192 @@
+---
+import pictures from "../../data/pictures.json";
+
+import { defaultLocale, locales, type Locale } from "../../i18n/config";
+import { useTranslations } from "../../i18n/utils";
+
+import Layout from "../../layouts/Layout.astro";
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang } }));
+}
+
+const t = useTranslations(Astro.currentLocale as Locale);
+
+type Photo = { index: string; title: string; small: string; big: string };
+const photos: Photo[] = [];
+let index = 1;
+for (const picture of pictures[
+  (Astro.currentLocale ?? defaultLocale) as Locale
+]) {
+  const imageIndex = index.toString().padStart(2, "0");
+  index++;
+  photos.push({
+    index: imageIndex,
+    title: picture,
+    small: `/imgs/gallery/personal/Personal_small_${imageIndex}.jpg`,
+    big: `/imgs/gallery/personal/Personal_big_${imageIndex}.jpg`,
+  });
+}
+---
+
+<Layout>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="display-2 text-center mb-4">
+          {t("personal_header")}
+        </h1>
+      </div>
+      {
+        photos.map((photo, index) => (
+          <div class="col-8 offset-2 offset-sm-0 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+            <a
+              class="card shadow-sm h-100 js-personal-photo text-decoration-none text-reset"
+              href="#"
+              data-personal-index={index}
+            >
+              <div
+                class="card-img-top card-photo"
+                style={`background-image: url(${photo.small})`}
+              />
+              <div class="card-body d-flex align-items-end text-center">
+                <h2
+                  id={`personal-title-${photo.index}`}
+                  class="card-title h6 mx-auto"
+                >
+                  {photo.title}
+                </h2>
+              </div>
+            </a>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+
+  <div
+    class="modal fade js-modal js-personal-modal"
+    id="personal-modal"
+    tabindex="-1"
+    aria-labelledby="personal-modal-title"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="personal-modal-title">
+            {t("link_personal")}
+          </h4>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label={t("close")}
+          >
+          </button>
+        </div>
+        <div class="modal-body">
+          <div
+            id="personal-modal-carousel"
+            class="carousel slide carousel-fade js-personal-modal-carousel"
+            data-bs-interval="false"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#personal-modal-carousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label={`${t("photo")} 1`}></button>
+              {
+                photos
+                  .slice(1)
+                  .map((_, index) => (
+                    <button
+                      type="button"
+                      data-bs-target="#personal-modal-carousel"
+                      data-bs-slide-to={index + 1}
+                      aria-label={`${t("photo")} ${index + 2}`}
+                    />
+                  ))
+              }
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h5 class="text-center" id="item-label-0">
+                  {photos[0].title}
+                </h5>
+                <img
+                  src={photos[0].big}
+                  class="d-block w-100"
+                  aria-labelledby="item-label-0"
+                />
+              </div>
+              {
+                photos.slice(1).map((photo, index) => (
+                  <div class="carousel-item">
+                    <h5 class="text-center" id={`item-label-${index + 1}`}>
+                      {photo.title}
+                    </h5>
+                    <img
+                      src={photo.big}
+                      class="d-block w-100"
+                      aria-labelledby={`item-label-${index + 1}`}
+                    />
+                  </div>
+                ))
+              }
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#personal-modal-carousel"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">
+                {t("previous")}
+              </span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#personal-modal-carousel"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">
+                {t("next")}
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-primary js-modal-fullscreen"
+            data-modal="personal-modal"
+          >
+            <span class="modal__fullscreen modal__fullscreen--enlarge">
+              {t("enlarge")}
+            </span>
+            <span class="modal__fullscreen modal__fullscreen--reduce">
+              {t("reduce")}
+            </span>
+          </button>
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            {t("close")}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../../scripts/personal.ts"></script>
+</Layout>

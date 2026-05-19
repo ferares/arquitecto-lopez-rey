@@ -1,0 +1,47 @@
+---
+import { defaultLocale, type Locale } from "../i18n/config";
+import { useTranslations } from "../i18n/utils";
+
+const t = useTranslations((Astro.currentLocale ?? defaultLocale) as Locale);
+---
+
+<div
+  class="modal fade js-modal js-projects-modal"
+  id="projects-modal"
+  tabindex="-1"
+  aria-labelledby="projects-modal-title"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="projects-modal-title"></h4>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label={t("close")}
+        >
+        </button>
+      </div>
+      <div class="modal-body"></div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-primary js-modal-fullscreen"
+          data-modal="projects-modal"
+        >
+          <span class="modal__fullscreen modal__fullscreen--enlarge">
+            {t("enlarge")}
+          </span>
+          <span class="modal__fullscreen modal__fullscreen--reduce">
+            {t("reduce")}
+          </span>
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          {t("close")}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

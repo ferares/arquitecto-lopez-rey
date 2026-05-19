@@ -1,0 +1,54 @@
+---
+import projects from "../../data/projects.json";
+
+import { locales, type Locale } from "../../i18n/config";
+import { useTranslations } from "../../i18n/utils";
+
+import Layout from "../../layouts/Layout.astro";
+import ProjectsModal from "../../components/ProjectsModal.astro";
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang } }));
+}
+
+const t = useTranslations(Astro.currentLocale as Locale);
+---
+
+<Layout>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="display-2 text-center mb-4">
+          {t("projects")}
+        </h1>
+      </div>
+      {
+        projects.map((project) => (
+          <div class="col-8 offset-2 offset-sm-0 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+            <a
+              class="card shadow-sm h-100 text-decoration-none text-reset js-project"
+              href="#"
+              data-project-prefix={project.prefix}
+            >
+              <div
+                class="card-img-top card-photo"
+                style={`background-image: url(/imgs/gallery/${project.prefix}_small_01.jpg)`}
+              />
+              <div class="card-body text-center">
+                <h2
+                  id={`project-title-${project.prefix}`}
+                  class="card-title project__name h6"
+                >
+                  {project.name}
+                </h2>
+                <p class="card-text project__location">{project.location}</p>
+              </div>
+            </a>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+  <ProjectsModal />
+  <script src="../../scripts/projects.ts"></script>
+</Layout>

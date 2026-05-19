@@ -1,0 +1,7 @@
+blockExoticSubdeps: true
+minimumReleaseAge: 10080
+minimumReleaseAgeExclude:
+allowBuilds:
+  "@parcel/watcher": true
+  esbuild: true
+  sharp: true

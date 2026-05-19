@@ -1,0 +1,464 @@
+[
+  {
+    "prefix": "Edificio_Centenario",
+    "name": "Edificio Centenario",
+    "location": "Montevideo",
+    "imgCount": 4
+  },
+  {
+    "prefix": "Puerto",
+    "name": "Edificio Puerto",
+    "location": "Punta del Este",
+    "imgCount": 7
+  },
+  {
+    "prefix": "Corrientes",
+    "name": "Edificio Corrientes",
+    "location": "Montevideo",
+    "imgCount": 5
+  },
+  {
+    "prefix": "Residencia_Pepe_Suarez",
+    "name": "Residencia Pepe Suárez",
+    "location": "Punta del Este",
+    "imgCount": 9
+  },
+  {
+    "prefix": "Socaire",
+    "name": "Residencia Socaire",
+    "location": "Punta del Este",
+    "imgCount": 2
+  },
+  {
+    "prefix": "Taller_Scalone",
+    "name": "Taller Scalone",
+    "location": "Punta del Este",
+    "imgCount": 2
+  },
+  {
+    "prefix": "Rcia_Son_Pura",
+    "name": "Residencia Son Pura",
+    "location": "Punta del Este",
+    "imgCount": 6
+  },
+  {
+    "prefix": "Residencia_Lopez_Rey",
+    "name": "Residencia López Rey \"Ahel\"",
+    "location": "Punta del Este",
+    "imgCount": 17
+  },
+  {
+    "prefix": "Finisterre",
+    "name": "Edificio Finisterre",
+    "location": "Montevideo",
+    "imgCount": 1
+  },
+  {
+    "prefix": "Rcia_Poyo_Roc",
+    "name": "Residencia Poyo Roc",
+    "location": "Punta del Este",
+    "imgCount": 6
+  },
+  {
+    "prefix": "Continental",
+    "name": "Edificio Continental",
+    "location": "Punta del Este",
+    "imgCount": 2
+  },
+  {
+    "prefix": "Fantasias_Italianas",
+    "name": "Fantasías Italianas",
+    "location": "Milán",
+    "imgCount": 9
+  },
+  {
+    "prefix": "San_Michelle",
+    "name": "Edificio San Michelle",
+    "location": "Montevideo",
+    "imgCount": 3
+  },
+  {
+    "prefix": "Tres_Marias",
+    "name": "Residencia Las Tres Marías",
+    "location": "Punta del Este",
+    "imgCount": 4
+  },
+  {
+    "prefix": "El_Fortin",
+    "name": "Edificio El Fortín",
+    "location": "Punta del Este",
+    "imgCount": 4
+  },
+  {
+    "prefix": "La_Caldera",
+    "name": "Residencia La Caldera",
+    "location": "Punta del Este",
+    "imgCount": 15
+  },
+  {
+    "prefix": "Alianza_Francesa",
+    "name": "Edificio de la Alliance Francaise",
+    "location": "Montevideo",
+    "imgCount": 5
+  },
+  {
+    "prefix": "Berna",
+    "name": "Edificio Berna",
+    "location": "Montevideo",
+    "imgCount": 4
+  },
+  {
+    "prefix": "Casa_El_Monarca",
+    "name": "Residencia El Monarca",
+    "location": "Punta del Este",
+    "imgCount": 2
+  },
+  {
+    "prefix": "Paz_Marina",
+    "name": "Edificio Paz Marina",
+    "location": "Punta del Este",
+    "imgCount": 5
+  },
+  {
+    "prefix": "Yacht",
+    "name": "Edificio Yacht",
+    "location": "Punta del Este",
+    "imgCount": 4
+  },
+  {
+    "prefix": "El_Remanso",
+    "name": "Edificio El Remanso",
+    "location": "Punta del Este",
+    "imgCount": 3
+  },
+  {
+    "prefix": "Coop_Vivienda",
+    "name": "Cooperativa de viviendas",
+    "location": "Montevideo",
+    "imgCount": 2
+  },
+  {
+    "prefix": "Residencia_Saulieu",
+    "name": "Residencia Saulieu",
+    "location": "Punta del Este",
+    "imgCount": 2
+  },
+  {
+    "prefix": "Ampliacion_Banco_Holandes_Unido",
+    "name": "Ampliación del Banco Holandés Unido",
+    "location": "Montevideo",
+    "imgCount": 3
+  },
+  {
+    "prefix": "Residencia_Goldfarb",
+    "name": "Residencia Goldfarb",
+    "location": "Montevideo",
+    "imgCount": 1
+  },
+  {
+    "prefix": "Rcia_Taranto",
+    "name": "Residencia Taranto",
+    "location": "Montevideo",
+    "imgCount": 2
+  },
+  {
+    "prefix": "Hogar_Espanol",
+    "name": "Hogar Español de Ancianos",
+    "location": "Montevideo",
+    "imgCount": 1
+  },
+  {
+    "prefix": "Residencia_Lecueder",
+    "name": "Residencia Lecueder",
+    "location": "Montevideo",
+    "imgCount": 1
+  },
+  {
+    "prefix": "Virazon",
+    "name": "Edificio Virazón",
+    "location": "Punta del Este",
+    "imgCount": 3
+  },
+  {
+    "prefix": "Arrecifes",
+    "name": "Edificio Arrecifes",
+    "location": "Punta del Este",
+    "imgCount": 4
+  },
+  {
+    "prefix": "Vendaval",
+    "name": "Edificio Vendaval",
+    "location": "Punta del Este",
+    "imgCount": 2
+  },
+  {
+    "prefix": "Costa_Azul",
+    "name": "Edificio Costa Azul",
+    "location": "Punta del Este",
+    "imgCount": 4
+  },
+  {
+    "prefix": "Varadero",
+    "name": "Edificio Varadero",
+    "location": "Punta del Este",
+    "imgCount": 5
+  },
+  {
+    "prefix": "Lobos",
+    "name": "Edificio Lobos",
+    "location": "Punta del Este",
+    "imgCount": 3
+  },
+  {
+    "prefix": "Malecon_I_II_III",
+    "name": "Edificios Malecón I, II y III",
+    "location": "Punta del Este",
+    "imgCount": 6
+  },
+  {
+    "prefix": "Malecon_IV",
+    "name": "Edificio Malecón IV",
+    "location": "Punta del Este",
+    "imgCount": 3
+  },
+  {
+    "prefix": "La_Caleta",
+    "name": "Edificio La Caleta",
+    "location": "Punta del Este",
+    "imgCount": 3
+  },
+  {
+    "prefix": "Recalada",
+    "name": "Recalada",
+    "location": "Punta del Este",
+    "imgCount": 2
+  },
+  {
+    "prefix": "El_Monarca",
+    "name": "Edificio El Monarca",
+    "location": "Punta del Este",
+    "imgCount": 6
+  },
+  {
+    "prefix": "Torres_Plata",
+    "name": "Conjunto Torres del Plata, Torre I, Torre II, Torre III",
+    "location": "Punta del Este",
+    "imgCount": 6
+  },
+  {
+    "prefix": "Puerto_del_Sol",
+    "name": "Puerto del Sol - Edificios  Galeón,  Goleta, y Fragata",
+    "location": "Punta del Este",
+    "imgCount": 2
+  },
+  {
+    "prefix": "Galeon",
+    "name": "Puerto del Sol - Edificio Galeón",
+    "location": "Punta del Este",
+    "imgCount": 3
+  },
+  {
+    "prefix": "Goleta",
+    "name": "Puerto del Sol - Edificio Goleta",
+    "location": "Punta del Este",
+    "imgCount": 3
+  },
+  {
+    "prefix": "Fragata",
+    "name": "Puerto del Sol - Edificio Fragata",
+    "location": "Punta del Este",
+    "imgCount": 3
+  },
+  {
+    "prefix": "Torre_Gattas",
+    "name": "Torre Gattas",
+    "location": "Punta del Este",
+    "imgCount": 3
+  },
+  {
+    "prefix": "Del_Puerto",
+    "name": "Edificio Del Puerto",
+    "location": "Montevideo",
+    "imgCount": 2
+  },
+  {
+    "prefix": "MEC",
+    "name": "Ministerio de Cultura",
+    "location": "Montevideo",
+    "imgCount": 2
+  },
+  {
+    "prefix": "Terrazas_Carrasco",
+    "name": "Edificio Terrazas de Carrasco",
+    "location": "Montevideo",
+    "imgCount": 3
+  },
+  {
+    "prefix": "Presidente",
+    "name": "Edificio Presidente",
+    "location": "Montevideo",
+    "imgCount": 2
+  },
+  {
+    "prefix": "Regidor",
+    "name": "Edificio de oficinas Regidor",
+    "location": "Montevideo",
+    "imgCount": 1
+  },
+  {
+    "prefix": "Mdeo_Shopping",
+    "name": "Montevideo Shopping Center",
+    "location": "Montevideo",
+    "imgCount": 1
+  },
+  {
+    "prefix": "Agencia_Banco_Holandes_Unido",
+    "name": "Agencia del Banco Holandés Unido",
+    "location": "Montevideo",
+    "imgCount": 3
+  },
+  {
+    "prefix": "Agencia_Banco_Holandes_Bvar",
+    "name": "Agencia del Banco Holandés",
+    "location": "Montevideo",
+    "imgCount": 2
+  },
+  {
+    "prefix": "Del_Barco",
+    "name": "Edificio del Barco",
+    "location": "Montevideo",
+    "imgCount": 3
+  },
+  {
+    "prefix": "Agencia_Banco_Holandes_Pblo_Maria",
+    "name": "Agencia del Banco Holandés",
+    "location": "Montevideo",
+    "imgCount": 2
+  },
+  {
+    "prefix": "Avda_Callao_Arenales",
+    "name": "Avda. Callao y Arenales",
+    "location": "Buenos Aires",
+    "imgCount": 5
+  },
+  {
+    "prefix": "Muebleria_Caviglia",
+    "name": "Reciclaje del Edificio de la antigua Mueblería Caviglia",
+    "location": "Montevideo",
+    "imgCount": 15
+  },
+  {
+    "prefix": "Primer_Premio_Concurso_Propuestas_Innovacion",
+    "name": "Primer Premio del concurso para la mejor idea de Propuestas para Innovación",
+    "location": "Montevideo",
+    "imgCount": 6
+  },
+  {
+    "prefix": "Propuesta_Similar_Cnia_Gas",
+    "name": "Propuesta similar que finalmente se presenta para el predio de la Carbonera de la Compañía del Gas",
+    "location": "Montevideo",
+    "imgCount": 5
+  },
+  {
+    "prefix": "Rcia_Scasso",
+    "name": "Residencia en la Calle Scasso",
+    "location": "Montevideo",
+    "imgCount": 3
+  },
+  {
+    "prefix": "La_Villete",
+    "name": "Edificio La Villette",
+    "location": "Montevideo",
+    "imgCount": 3
+  },
+  {
+    "prefix": "Ocean_Drive",
+    "name": "Edificio Ocean Drive",
+    "location": "Montevideo",
+    "imgCount": 1
+  },
+  {
+    "prefix": "Palmas_del_Golf",
+    "name": "Edificio Palmas del Golf",
+    "location": "Montevideo",
+    "imgCount": 6
+  },
+  {
+    "prefix": "Punta_Brava",
+    "name": "Edificio Faro de Punta Brava",
+    "location": "Montevideo",
+    "imgCount": 4
+  },
+  {
+    "prefix": "Antep_Concurso_Edif_Notarial",
+    "name": "Concurso Edificio Caja Notarial",
+    "location": "Montevideo",
+    "imgCount": 1
+  },
+  {
+    "prefix": "Antep_Concurso_BHU",
+    "name": "Concurso Banco Hipotecario",
+    "location": "Montevideo",
+    "imgCount": 1
+  },
+  {
+    "prefix": "Antep_Resid_Tiferes",
+    "name": "Residencia Tres Pantallas",
+    "location": "Punta del Este",
+    "imgCount": 6
+  },
+  {
+    "prefix": "Antep_Edif_El_Ombu",
+    "name": "Edificio El Ombú",
+    "location": "Montevideo",
+    "imgCount": 5
+  },
+  {
+    "prefix": "Antep_Edif_El_Emir",
+    "name": "Edificio El Emir",
+    "location": "Punta del Este",
+    "imgCount": 1
+  },
+  {
+    "prefix": "Antep_Resid_Punta_Del_Este",
+    "name": "Residencia Tres Pilares",
+    "location": "Punta del Este",
+    "imgCount": 7
+  },
+  {
+    "prefix": "Torre_Continua_Tiphaine",
+    "name": "Torre continua Tiphaine",
+    "location": "Buenos Aires",
+    "imgCount": 2
+  },
+  {
+    "prefix": "Complejo_Turistico_La_Paloma",
+    "name": "Complejo turístico en La Paloma",
+    "location": "Rocha",
+    "imgCount": 3
+  },
+  {
+    "prefix": "Concurso_Terminal_Buenos_Aires",
+    "name": "Concurso Terminal de Ómnibus de Buenos Aires",
+    "location": "Buenos Aires",
+    "imgCount": 1
+  },
+  {
+    "prefix": "Proy_Urban_Anteproyecto_Fermin_Ferreira",
+    "name": "Anteproyecto Fermín Ferreira",
+    "location": "Montevideo",
+    "imgCount": 2
+  },
+  {
+    "prefix": "Proy_Urban_Proyecto_Lobos",
+    "name": "Proyecto Lobos",
+    "location": "Punta del Este",
+    "imgCount": 2
+  },
+  {
+    "prefix": "Proy_Urban_Vilazar_Del_Mar",
+    "name": "Ciudad Satélite Vilazar del Mar. Con Arq. Raúl Sichero Punta Yeguas",
+    "location": "Montevideo",
+    "imgCount": 2
+  }
+]
