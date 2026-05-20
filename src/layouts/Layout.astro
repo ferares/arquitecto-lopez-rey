@@ -129,7 +129,9 @@ const year = new Date().getFullYear();
         </div>
       </nav>
     </header>
-    <slot />
+    <main id="content">
+      <slot />
+    </main>
     <footer class="bg-dark text-light text-center p-4 footer">
       <span>
         &copy; {year}
