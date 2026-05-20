@@ -1,15 +1,12 @@
 ---
-import projects from "../../data/projects.json";
+import projects from "../data/projects.json";
 
-import { locales, type Locale } from "../../i18n/config";
-import { useTranslations } from "../../i18n/utils";
+import type { Locale } from "../i18n/config";
+import { useTranslations } from "../i18n/utils";
 
-import Layout from "../../layouts/Layout.astro";
-import ProjectsModal from "../../components/ProjectsModal.astro";
+import Layout from "../layouts/Layout.astro";
 
-export function getStaticPaths() {
-  return locales.map((lang) => ({ params: { lang } }));
-}
+import ProjectsModal from "./ProjectsModal.astro";
 
 const t = useTranslations(Astro.currentLocale as Locale);
 ---
@@ -50,5 +47,5 @@ const t = useTranslations(Astro.currentLocale as Locale);
     </div>
   </div>
   <ProjectsModal />
-  <script src="../../scripts/projects.ts"></script>
+  <script src="../scripts/projects.ts"></script>
 </Layout>

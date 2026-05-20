@@ -3,11 +3,14 @@ import "../styles/main.scss";
 import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js?url";
 
 import { locales, defaultLocale, type Locale } from "../i18n/config";
-import { useTranslations, getLocalizedUrl } from "../i18n/utils";
+import {
+  useTranslations,
+  getLocalizedUrl,
+  getRouteKeyFromPath,
+} from "../i18n/utils";
 
 const currentPath = Astro.url.pathname;
-const basePath = currentPath.replace(/^\/([\w-]+)/, "") || "/";
-const currentPage = basePath.replaceAll("/", "");
+const currentPageKey = getRouteKeyFromPath(Astro.url.pathname);
 const t = useTranslations(Astro.currentLocale as Locale);
 const year = new Date().getFullYear();
 ---
@@ -31,14 +34,14 @@ const year = new Date().getFullYear();
           <link
             rel="alternate"
             hreflang={locale}
-            href={new URL(`/${locale}${basePath}`, Astro.site)}
+            href={new URL(getLocalizedUrl(currentPageKey, locale), Astro.site)}
           />
         ))
     }
     <link
       rel="alternate"
       hreflang="x-default"
-      href={new URL(`/${defaultLocale}${basePath}`, Astro.site)}
+      href={new URL(getLocalizedUrl(currentPageKey, defaultLocale), Astro.site)}
     />
     <script is:inline src={bootstrap}></script>
     <!-- GTM -->
@@ -65,8 +68,8 @@ const year = new Date().getFullYear();
         <div class="container-fluid">
           <a
             class="navbar-brand"
-            href={getLocalizedUrl("/", Astro.currentLocale)}
-            aria-current={currentPage === "" ? "page" : undefined}
+            href={getLocalizedUrl("home", Astro.currentLocale)}
+            aria-current={currentPageKey === "home" ? "page" : undefined}
           >
             <span class="h5 mb-0">
               {t("main_title")}
@@ -87,8 +90,10 @@ const year = new Date().getFullYear();
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
                 <a
-                  class={`nav-link ${currentPage === "projects" ? "active" : undefined}`}
-                  aria-current={currentPage === "projects" ? "page" : undefined}
+                  class={`nav-link ${currentPageKey === "projects" ? "active" : undefined}`}
+                  aria-current={currentPageKey === "projects"
+                    ? "page"
+                    : undefined}
                   href={getLocalizedUrl("projects", Astro.currentLocale)}
                 >
                   {t("link_projects")}
@@ -96,8 +101,10 @@ const year = new Date().getFullYear();
               </li>
               <li class="nav-item">
                 <a
-                  class={`nav-link ${currentPage === "personal" ? "active" : undefined}`}
-                  aria-current={currentPage === "personal" ? "page" : undefined}
+                  class={`nav-link ${currentPageKey === "personal" ? "active" : undefined}`}
+                  aria-current={currentPageKey === "personal"
+                    ? "page"
+                    : undefined}
                   href={getLocalizedUrl("personal", Astro.currentLocale)}
                 >
                   {t("link_personal")}
@@ -109,10 +116,8 @@ const year = new Date().getFullYear();
                 <a
                   class="nav-link"
                   href={getLocalizedUrl(
-                    basePath,
-                    locales
-                      .filter((locale) => locale !== Astro.currentLocale)
-                      .pop(),
+                    currentPageKey,
+                    locales.find((l) => l !== Astro.currentLocale)!,
                   )}
                 >
                   {t("link_language")}

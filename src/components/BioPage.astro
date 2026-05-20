@@ -1,25 +1,22 @@
 ---
 import { Image } from "astro:assets";
 
-import { locales, type Locale } from "../../i18n/config";
-import { useTranslations } from "../../i18n/utils";
+import { type Locale } from "../i18n/config";
+import { useTranslations } from "../i18n/utils";
 
-import Layout from "../../layouts/Layout.astro";
-import ProjectsModal from "../../components/ProjectsModal.astro";
-import BioEs from "../../components/BioEs.astro";
-import BioEn from "../../components/BioEn.astro";
+import Layout from "../layouts/Layout.astro";
 
-import biopic from "../../assets/biopic.jpg";
-import gonzalezAlmeida from "../../assets/cartas/gonzalezAlmeida.jpg";
-import sichero from "../../assets/cartas/sichero.jpg";
-import garciaPardo from "../../assets/cartas/garciaPardo.jpg";
-import viera from "../../assets/cartas/viera.jpg";
-import munozdelCampo from "../../assets/cartas/munozdelCampo.jpg";
-import ricardoSaxlund from "../../assets/cartas/ricardoSaxlund.jpg";
+import ProjectsModal from "../components/ProjectsModal.astro";
+import BioContentEs from "../components/BioContentEs.astro";
+import BioContentEn from "../components/BioContentEn.astro";
 
-export function getStaticPaths() {
-  return locales.map((lang) => ({ params: { lang } }));
-}
+import biopic from "../assets/biopic.jpg";
+import gonzalezAlmeida from "../assets/cartas/gonzalezAlmeida.jpg";
+import sichero from "../assets/cartas/sichero.jpg";
+import garciaPardo from "../assets/cartas/garciaPardo.jpg";
+import viera from "../assets/cartas/viera.jpg";
+import munozdelCampo from "../assets/cartas/munozdelCampo.jpg";
+import ricardoSaxlund from "../assets/cartas/ricardoSaxlund.jpg";
 
 const t = useTranslations(Astro.currentLocale as Locale);
 ---
@@ -37,7 +34,7 @@ const t = useTranslations(Astro.currentLocale as Locale);
         <div class="text-center">
           <Image src={biopic} class="img-fluid mb-4" alt={t("bio_pic_alt")} />
         </div>
-        {Astro.currentLocale === "en" ? <BioEn /> : <BioEs />}
+        {Astro.currentLocale === "en" ? <BioContentEn /> : <BioContentEs />}
         <div
           class="modal fade js-modal js-letters-modal"
           id="letters-modal"
@@ -219,6 +216,6 @@ const t = useTranslations(Astro.currentLocale as Locale);
     </div>
   </div>
   <ProjectsModal />
-  <script src="../../scripts/bio.ts"></script>
-  <script src="../../scripts/projects.ts"></script>
-</Layout>;
+  <script src="../scripts/bio.ts"></script>
+  <script src="../scripts/projects.ts"></script>
+</Layout>

@@ -1,14 +1,10 @@
 ---
-import pictures from "../../data/pictures.json";
+import pictures from "../data/pictures.json";
 
-import { defaultLocale, locales, type Locale } from "../../i18n/config";
-import { useTranslations } from "../../i18n/utils";
+import { defaultLocale, type Locale } from "../i18n/config";
+import { useTranslations } from "../i18n/utils";
 
-import Layout from "../../layouts/Layout.astro";
-
-export function getStaticPaths() {
-  return locales.map((lang) => ({ params: { lang } }));
-}
+import Layout from "../layouts/Layout.astro";
 
 const t = useTranslations(Astro.currentLocale as Locale);
 
@@ -188,5 +184,5 @@ for (const picture of pictures[
       </div>
     </div>
   </div>
-  <script src="../../scripts/personal.ts"></script>
+  <script src="../scripts/personal.ts"></script>
 </Layout>
