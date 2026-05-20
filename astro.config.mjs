@@ -6,6 +6,9 @@ import { locales, defaultLocale } from "./src/i18n/config";
 // https://astro.build/config
 export default defineConfig({
   site: "https://arquitectolopezrey.com",
+  redirects: {
+    "/": `/${defaultLocale}`
+  },
   i18n: {
     locales: [...locales],
     defaultLocale,
