@@ -1,6 +1,5 @@
 ---
 import "../styles/main.scss";
-import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js?url";
 
 import { locales, defaultLocale, type Locale } from "../i18n/config";
 import {
@@ -43,7 +42,6 @@ const year = new Date().getFullYear();
       hreflang="x-default"
       href={new URL(getLocalizedUrl(currentPageKey, defaultLocale), Astro.site)}
     />
-    <script is:inline src={bootstrap}></script>
     <!-- GTM -->
     <script
       is:inline
@@ -82,7 +80,7 @@ const year = new Date().getFullYear();
             data-bs-target="#nav-main"
             aria-controls="nav-main"
             aria-expanded="false"
-            aria-label="Toggle navigation"
+            aria-label={t("toggle_navigation")}
           >
             <span class="navbar-toggler-icon"></span>
           </button>

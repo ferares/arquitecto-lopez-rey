@@ -1,3 +1,5 @@
+import "bootstrap"
+
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".js-modal-fullscreen").forEach(element => element.addEventListener("click", () => {
     const modalId = element.getAttribute("data-modal")
