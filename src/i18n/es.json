@@ -20,5 +20,6 @@
   "letter_from": "Carta del",
   "photo": "Foto",
   "skip_to_content": "Ir al contenido",
-  "toggle_navigation": "Activar menú"
+  "toggle_navigation": "Activar menú",
+  "not_found": "Página no encontrada"
 }
