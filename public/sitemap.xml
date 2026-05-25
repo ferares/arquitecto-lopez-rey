@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Home -->
+  <url>
+    <loc>https://arquitectolopezrey.com/es</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://arquitectolopezrey.com/es" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://arquitectolopezrey.com/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://arquitectolopezrey.com/es" />
+    <lastmod>2026-05-25T14:30:00-03:00</lastmod>
+  </url>
+  <url>
+    <loc>https://arquitectolopezrey.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://arquitectolopezrey.com/es" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://arquitectolopezrey.com/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://arquitectolopezrey.com/es" />
+    <lastmod>2026-05-25T14:30:00-03:00</lastmod>
+  </url>
+
+  <!-- Projects -->
+  <url>
+    <loc>https://arquitectolopezrey.com/es/proyectos</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://arquitectolopezrey.com/es/proyectos" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://arquitectolopezrey.com/en/projects" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://arquitectolopezrey.com/es/proyectos" />
+    <lastmod>2026-05-25T14:30:00-03:00</lastmod>
+  </url>
+  <url>
+    <loc>https://arquitectolopezrey.com/en/projects</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://arquitectolopezrey.com/es/proyectos" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://arquitectolopezrey.com/en/projects" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://arquitectolopezrey.com/es/proyectos" />
+    <lastmod>2026-05-25T14:30:00-03:00</lastmod>
+  </url>
+
+  <!-- Personal -->
+  <url>
+    <loc>https://arquitectolopezrey.com/es/personal</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://arquitectolopezrey.com/es/personal" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://arquitectolopezrey.com/en/personal" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://arquitectolopezrey.com/es/personal" />
+    <lastmod>2026-05-25T14:30:00-03:00</lastmod>
+  </url>
+  <url>
+    <loc>https://arquitectolopezrey.com/en/personal</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://arquitectolopezrey.com/es/personal" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://arquitectolopezrey.com/en/personal" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://arquitectolopezrey.com/es/personal" />
+    <lastmod>2026-05-25T14:30:00-03:00</lastmod>
+  </url>
+
+</urlset>
